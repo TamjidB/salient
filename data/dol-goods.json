@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "name": "List of Goods Produced by Child Labor or Forced Labor",
+    "publisher": "U.S. Department of Labor, Bureau of International Labor Affairs",
+    "edition": "2024 (sample subset)",
+    "sourceUrl": "https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods",
+    "retrievedAt": null,
+    "sample": true,
+    "notice": "Development sample: the full goods vocabulary but only a handful of listings, checked against dol.gov by hand. Run `npm run data:fetch` to replace it with the full official list."
+  },
+  "goods": [
+    "Açaí Berries", "Alcoholic Beverages", "Aluminum", "Amber", "Animal Feed", "Artificial Flowers",
+    "Auto Parts and Components (aluminum)", "Bagasse", "Baked Goods", "Bamboo", "Bananas", "Beans",
+    "Beans (green beans)", "Beans (green, soy, yellow)", "Beef", "Bidis (hand-rolled cigarettes)", "Biofuel",
+    "Blueberries", "Bovines", "Brassware", "Brazil Nuts/Chestnuts", "Bricks", "Bricks (clay)", "Broccoli",
+    "Cabbages", "Camel", "Carpets", "Carrots", "Cashews", "Cassava", "Cattle", "Caustic Soda", "Cement",
+    "Ceramics", "Cereal Grains", "Charcoal", "Chile Peppers", "Chocolate", "Christmas Decorations",
+    "Cigarettes (tobacco)", "Citrus Fruits", "Cloves", "Coal", "Cobalt Ore (heterogenite)", "Coca (stimulant plant)",
+    "Cocoa", "Cocoa Butter", "Cocoa Paste", "Cocoa Powder", "Coconut Oil", "Coconuts", "Coffee",
+    "Cooking Oil (palm-oil-blends)", "Copper", "Copper Ore", "Copper Products", "Copra Meal", "Corn", "Cotton",
+    "Cottonseed (hybrid)", "Crude Palm Kernel Oil", "Crude Palm Oil", "Cucumbers", "Cumin", "Dairy Products",
+    "Diamonds", "Dried Fish", "Eggplants", "Electrolytic Copper Products", "Electronics", "Embellished Textiles",
+    "Emeralds", "Fashion Accessories", "Fireworks", "Fish", "Fish Oil", "Fishmeal", "Flowers", "Fluorspar (mineral)",
+    "Footwear", "Footwear (sandals)", "Fruits (pome and stone)", "Furfural", "Furniture", "Furniture (steel)",
+    "Garlic", "Garments", "Garments Cotton", "Gems", "Glass", "Glass Bangles", "Gloves", "Goats", "Gold",
+    "Gold Dental Treatments", "Gold Jewelry", "Granite", "Granite (crushed)", "Grapes", "Gravel (crushed stones)",
+    "Gypsum (mineral)", "Hair Products", "Hazelnuts", "Hogs", "Incense (agarbatti)", "Indium", "Iron", "Jade",
+    "Jujubes", "Jute (textiles)", "Khat (stimulant plant)", "Khat/Miraa (stimulant plant)", "Lead", "Leather",
+    "Leather Goods/Accessories", "Lettuce", "Lithium", "Lithium-Ion Batteries", "Lobsters", "Locks", "Lumber",
+    "Manganese", "Manioc/Cassava", "Matches", "Meat", "Melons", "Metallurgical Grade Silicon", "Mica", "Molasses",
+    "Nails", "Nickel", "Nile Perch (fish)", "Oleochemicals", "Olives", "Onions", "Palm Fruit", "Palm Thatch",
+    "Peanuts", "Pepper", "Peppers", "Photovoltaic Ingots", "Photovoltaic Wafers", "Pineapples", "Polysilicon",
+    "Polyvinyl Chloride", "Poppies", "Pornography", "Potatoes", "Poultry", "Pulses (legumes)", "Pyrotechnics",
+    "Raw Sugar", "Recovered Metals (electronic waste)", "Refined Palm Kernel Oil", "Refined Palm Oil",
+    "Refined Sugar", "Rice", "Rubber", "Rubber Gloves", "Rubies", "Rum", "Salt", "Sand", "Sandstone", "Sapphires",
+    "Sesame", "Sheep", "Shellfish", "Shrimp", "Silk Cocoons", "Silk Fabric", "Silk Thread", "Silver", "Sisal",
+    "Soap", "Soccer Balls", "Solar Cells", "Solar Modules", "Squid", "Stones", "Stones (limestone)",
+    "Stones (pumice)", "Strawberries", "Sugar Beets", "Sugarcane", "Sunflowers", "Surgical Instruments",
+    "Sweet Potatoes", "Tantalum Ore (coltan)", "Tanzanite (gems)", "Tea", "Teak", "Textiles",
+    "Textiles (hand-woven)", "Thread/Yarn", "Tilapia (fish)", "Timber", "Tin", "Tin Ore (cassiterite)", "Tobacco",
+    "Tomato Products", "Tomatoes", "Toys", "Trona (minerals)", "Tungsten Ore (wolframite)", "Vanilla", "Wheat",
+    "Yerba Mate (stimulant plant)", "Zinc"
+  ],
+  "listings": [
+    { "country": "Brazil", "good": "Cattle", "exploitation": ["child_labor", "forced_labor"] },
+    { "country": "China", "good": "Polysilicon", "exploitation": ["forced_labor"] },
+    { "country": "Congo, Democratic Republic of the (DRC)", "good": "Cobalt Ore (heterogenite)", "exploitation": ["child_labor", "forced_labor"] },
+    { "country": "Côte d'Ivoire", "good": "Cocoa", "exploitation": ["child_labor", "forced_labor"] },
+    { "country": "Ghana", "good": "Cocoa", "exploitation": ["child_labor"] },
+    { "country": "India", "good": "Bricks", "exploitation": ["child_labor", "forced_labor"] },
+    { "country": "Pakistan", "good": "Bricks", "exploitation": ["child_labor", "forced_labor"] }
+  ]
+}

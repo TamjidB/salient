@@ -1,0 +1,13 @@
+# Sample supplier list. Companies are fictional, except two rows that deliberately echo UFLPA-listed names to show alias and near-spelling matching.
+name,country,product,annual_spend
+Harbor Lane Confectionery Supply,Ivory Coast,cocoa beans,310000
+Accra Cocoa Traders,Ghana,cocoa,180000
+Kivu Minerals SARL,DRC,cobalt ore,150000
+Northwind Solar Components,China,solar panels,260000
+Akesu Huafu Melange Yarn Co Ltd,China,cotton yarn,90000
+Hotan Hoalin Hair Accessories,China,hair extensions,40000
+Punjab Kiln Works,Pakistan,clay bricks,75000
+Pampas Leather Co,Brazil,leather hides,120000
+Delta Cotton Co-op,United States,raw cotton,220000
+Lakeside Paper Goods,Canada,corrugated packaging,60000
+Rhine Precision Parts GmbH,Germany,machined steel components,140000

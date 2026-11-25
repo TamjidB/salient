@@ -1,0 +1,105 @@
+[
+  { "phrase": "t shirt", "goods": [{ "good": "Garments", "relation": "is" }, { "good": "Cotton", "relation": "contains" }] },
+  { "phrase": "tshirt", "goods": [{ "good": "Garments", "relation": "is" }, { "good": "Cotton", "relation": "contains" }] },
+  { "phrase": "apparel", "goods": [{ "good": "Garments", "relation": "is" }] },
+  { "phrase": "clothing", "goods": [{ "good": "Garments", "relation": "is" }] },
+  { "phrase": "jeans", "goods": [{ "good": "Garments", "relation": "is" }, { "good": "Cotton", "relation": "contains" }] },
+  { "phrase": "denim", "goods": [{ "good": "Textiles", "relation": "is" }, { "good": "Cotton", "relation": "contains" }] },
+  { "phrase": "fabric", "goods": [{ "good": "Textiles", "relation": "is" }] },
+  { "phrase": "yarn", "goods": [{ "good": "Thread/Yarn", "relation": "is" }] },
+  { "phrase": "towel", "goods": [{ "good": "Textiles", "relation": "is" }, { "good": "Cotton", "relation": "contains" }] },
+  { "phrase": "bed sheet", "goods": [{ "good": "Textiles", "relation": "is" }, { "good": "Cotton", "relation": "contains" }] },
+  { "phrase": "bedding", "goods": [{ "good": "Textiles", "relation": "is" }, { "good": "Cotton", "relation": "contains" }] },
+
+  {
+    "phrase": "solar panel",
+    "goods": [
+      { "good": "Solar Modules", "relation": "is" },
+      { "good": "Solar Cells", "relation": "contains" },
+      { "good": "Photovoltaic Wafers", "relation": "contains" },
+      { "good": "Photovoltaic Ingots", "relation": "contains" },
+      { "good": "Polysilicon", "relation": "contains" },
+      { "good": "Metallurgical Grade Silicon", "relation": "contains" }
+    ]
+  },
+  {
+    "phrase": "pv module",
+    "goods": [
+      { "good": "Solar Modules", "relation": "is" },
+      { "good": "Solar Cells", "relation": "contains" },
+      { "good": "Photovoltaic Wafers", "relation": "contains" },
+      { "good": "Photovoltaic Ingots", "relation": "contains" },
+      { "good": "Polysilicon", "relation": "contains" },
+      { "good": "Metallurgical Grade Silicon", "relation": "contains" }
+    ]
+  },
+  {
+    "phrase": "lithium ion battery",
+    "goods": [
+      { "good": "Lithium-Ion Batteries", "relation": "is" },
+      { "good": "Cobalt Ore (heterogenite)", "relation": "contains" },
+      { "good": "Lithium", "relation": "contains" },
+      { "good": "Nickel", "relation": "contains" }
+    ]
+  },
+  {
+    "phrase": "ev battery",
+    "goods": [
+      { "good": "Lithium-Ion Batteries", "relation": "is" },
+      { "good": "Cobalt Ore (heterogenite)", "relation": "contains" },
+      { "good": "Lithium", "relation": "contains" },
+      { "good": "Nickel", "relation": "contains" }
+    ]
+  },
+  {
+    "phrase": "smartphone",
+    "goods": [
+      { "good": "Electronics", "relation": "is" },
+      { "good": "Cobalt Ore (heterogenite)", "relation": "contains" },
+      { "good": "Tantalum Ore (coltan)", "relation": "contains" },
+      { "good": "Tin Ore (cassiterite)", "relation": "contains" },
+      { "good": "Gold", "relation": "contains" },
+      { "good": "Mica", "relation": "contains" }
+    ]
+  },
+  {
+    "phrase": "laptop",
+    "goods": [
+      { "good": "Electronics", "relation": "is" },
+      { "good": "Cobalt Ore (heterogenite)", "relation": "contains" },
+      { "good": "Tantalum Ore (coltan)", "relation": "contains" },
+      { "good": "Tin Ore (cassiterite)", "relation": "contains" },
+      { "good": "Gold", "relation": "contains" },
+      { "good": "Mica", "relation": "contains" }
+    ]
+  },
+
+  { "phrase": "chocolate", "goods": [{ "good": "Chocolate", "relation": "is" }, { "good": "Cocoa", "relation": "contains" }] },
+  { "phrase": "cocoa beans", "goods": [{ "good": "Cocoa", "relation": "is" }] },
+  { "phrase": "coffee beans", "goods": [{ "good": "Coffee", "relation": "is" }] },
+  { "phrase": "palm oil", "goods": [{ "good": "Crude Palm Oil", "relation": "is" }, { "good": "Refined Palm Oil", "relation": "is" }, { "good": "Palm Fruit", "relation": "contains" }] },
+  { "phrase": "sugar", "goods": [{ "good": "Raw Sugar", "relation": "is" }, { "good": "Refined Sugar", "relation": "is" }, { "good": "Sugarcane", "relation": "contains" }] },
+  { "phrase": "tomato paste", "goods": [{ "good": "Tomato Products", "relation": "is" }, { "good": "Tomatoes", "relation": "contains" }] },
+  { "phrase": "ketchup", "goods": [{ "good": "Tomato Products", "relation": "is" }, { "good": "Tomatoes", "relation": "contains" }] },
+  { "phrase": "beef", "goods": [{ "good": "Beef", "relation": "is" }, { "good": "Cattle", "relation": "contains" }] },
+  { "phrase": "seafood", "goods": [{ "good": "Fish", "relation": "is" }, { "good": "Shrimp", "relation": "is" }, { "good": "Shellfish", "relation": "is" }] },
+  { "phrase": "tuna", "goods": [{ "good": "Fish", "relation": "is" }] },
+  { "phrase": "prawn", "goods": [{ "good": "Shrimp", "relation": "is" }] },
+
+  { "phrase": "leather", "goods": [{ "good": "Leather", "relation": "is" }, { "good": "Cattle", "relation": "contains" }] },
+  { "phrase": "hide", "goods": [{ "good": "Leather", "relation": "is" }, { "good": "Cattle", "relation": "contains" }] },
+  { "phrase": "shoe", "goods": [{ "good": "Footwear", "relation": "is" }, { "good": "Leather", "relation": "contains" }, { "good": "Rubber", "relation": "contains" }] },
+  { "phrase": "shoes", "goods": [{ "good": "Footwear", "relation": "is" }, { "good": "Leather", "relation": "contains" }, { "good": "Rubber", "relation": "contains" }] },
+  { "phrase": "sneaker", "goods": [{ "good": "Footwear", "relation": "is" }, { "good": "Leather", "relation": "contains" }, { "good": "Rubber", "relation": "contains" }] },
+  { "phrase": "tire", "goods": [{ "good": "Rubber", "relation": "contains" }] },
+  { "phrase": "tyre", "goods": [{ "good": "Rubber", "relation": "contains" }] },
+  { "phrase": "latex glove", "goods": [{ "good": "Rubber Gloves", "relation": "is" }, { "good": "Rubber", "relation": "contains" }] },
+  { "phrase": "rug", "goods": [{ "good": "Carpets", "relation": "is" }] },
+  { "phrase": "hair extension", "goods": [{ "good": "Hair Products", "relation": "is" }] },
+  { "phrase": "wig", "goods": [{ "good": "Hair Products", "relation": "is" }] },
+  { "phrase": "cosmetic", "goods": [{ "good": "Mica", "relation": "contains" }] },
+  { "phrase": "jewelry", "goods": [{ "good": "Gold", "relation": "contains" }, { "good": "Gems", "relation": "contains" }, { "good": "Diamonds", "relation": "contains" }] },
+  { "phrase": "jewellery", "goods": [{ "good": "Gold", "relation": "contains" }, { "good": "Gems", "relation": "contains" }, { "good": "Diamonds", "relation": "contains" }] },
+  { "phrase": "aluminium", "goods": [{ "good": "Aluminum", "relation": "is" }] },
+  { "phrase": "pvc", "goods": [{ "good": "Polyvinyl Chloride", "relation": "is" }] }
+]

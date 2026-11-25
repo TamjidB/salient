@@ -1,0 +1,20 @@
+{
+  "name": "@salient/ingest",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fetches and parses the public source lists (DOL List of Goods, DHS UFLPA Entity List) into data/*.json.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "fetch": "node src/cli.ts",
+    "fetch:dol": "node src/cli.ts dol",
+    "fetch:uflpa": "node src/cli.ts uflpa",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@salient/engine": "*",
+    "node-html-parser": "^9.0.7",
+    "read-excel-file": "^9.3.20"
+  }
+}

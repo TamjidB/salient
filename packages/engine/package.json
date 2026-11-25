@@ -1,0 +1,15 @@
+{
+  "name": "@salient/engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Screening logic for Salient: normalization, matching and salience scoring. Pure TypeScript, browser-safe, zero dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p ."
+  }
+}

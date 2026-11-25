@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-24T18:49:18Z",
+  "title": "Design System: Salient",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Form Stock",
+        "canonical": "oklch(97.6% 0.004 175)",
+        "dark": "oklch(17.5% 0.008 200)",
+        "cssVar": "--color-paper",
+        "tonalRamp": [
+          "oklch(15% 0.004 175)",
+          "oklch(26% 0.004 175)",
+          "oklch(38% 0.004 175)",
+          "oklch(49% 0.004 175)",
+          "oklch(61% 0.004 175)",
+          "oklch(72% 0.004 175)",
+          "oklch(84% 0.004 175)",
+          "oklch(95% 0.004 175)"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Shaded Stock",
+        "canonical": "oklch(95% 0.007 175)",
+        "dark": "oklch(21% 0.01 200)",
+        "cssVar": "--color-paper-2",
+        "tonalRamp": [
+          "oklch(15% 0.007 175)",
+          "oklch(26% 0.007 175)",
+          "oklch(38% 0.007 175)",
+          "oklch(49% 0.007 175)",
+          "oklch(61% 0.007 175)",
+          "oklch(72% 0.007 175)",
+          "oklch(84% 0.007 175)",
+          "oklch(95% 0.007 175)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Blue-Black Ink",
+        "canonical": "oklch(21% 0.014 250)",
+        "dark": "oklch(93% 0.006 175)",
+        "cssVar": "--color-ink",
+        "tonalRamp": [
+          "oklch(15% 0.014 250)",
+          "oklch(26% 0.014 250)",
+          "oklch(38% 0.014 250)",
+          "oklch(49% 0.014 250)",
+          "oklch(61% 0.014 250)",
+          "oklch(72% 0.014 250)",
+          "oklch(84% 0.014 250)",
+          "oklch(95% 0.014 250)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Second Ink",
+        "canonical": "oklch(34% 0.014 250)",
+        "dark": "oklch(83% 0.008 175)",
+        "cssVar": "--color-ink-2",
+        "tonalRamp": [
+          "oklch(15% 0.014 250)",
+          "oklch(26% 0.014 250)",
+          "oklch(38% 0.014 250)",
+          "oklch(49% 0.014 250)",
+          "oklch(61% 0.014 250)",
+          "oklch(72% 0.014 250)",
+          "oklch(84% 0.014 250)",
+          "oklch(95% 0.014 250)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Faded Ink",
+        "canonical": "oklch(47% 0.012 240)",
+        "dark": "oklch(70% 0.012 190)",
+        "cssVar": "--color-muted",
+        "tonalRamp": [
+          "oklch(15% 0.012 240)",
+          "oklch(26% 0.012 240)",
+          "oklch(38% 0.012 240)",
+          "oklch(49% 0.012 240)",
+          "oklch(61% 0.012 240)",
+          "oklch(72% 0.012 240)",
+          "oklch(84% 0.012 240)",
+          "oklch(95% 0.012 240)"
+        ]
+      },
+      "form": {
+        "role": "primary",
+        "displayName": "Drop-Out Green",
+        "canonical": "oklch(47% 0.08 172)",
+        "dark": "oklch(76% 0.075 172)",
+        "cssVar": "--color-form",
+        "tonalRamp": [
+          "oklch(15% 0.08 172)",
+          "oklch(26% 0.08 172)",
+          "oklch(38% 0.08 172)",
+          "oklch(49% 0.08 172)",
+          "oklch(61% 0.08 172)",
+          "oklch(72% 0.08 172)",
+          "oklch(84% 0.08 172)",
+          "oklch(95% 0.08 172)"
+        ]
+      },
+      "form-rule": {
+        "role": "primary",
+        "displayName": "Box Rule Green",
+        "canonical": "oklch(82% 0.045 172)",
+        "dark": "oklch(36% 0.04 172)",
+        "cssVar": "--color-form-rule",
+        "tonalRamp": [
+          "oklch(15% 0.045 172)",
+          "oklch(26% 0.045 172)",
+          "oklch(38% 0.045 172)",
+          "oklch(49% 0.045 172)",
+          "oklch(61% 0.045 172)",
+          "oklch(72% 0.045 172)",
+          "oklch(84% 0.045 172)",
+          "oklch(95% 0.045 172)"
+        ]
+      },
+      "form-rule-strong": {
+        "role": "primary",
+        "displayName": "Strong Rule Green",
+        "canonical": "oklch(62% 0.07 172)",
+        "dark": "oklch(52% 0.06 172)",
+        "cssVar": "--color-form-rule-strong",
+        "tonalRamp": [
+          "oklch(15% 0.07 172)",
+          "oklch(26% 0.07 172)",
+          "oklch(38% 0.07 172)",
+          "oklch(49% 0.07 172)",
+          "oklch(61% 0.07 172)",
+          "oklch(72% 0.07 172)",
+          "oklch(84% 0.07 172)",
+          "oklch(95% 0.07 172)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Row Hairline",
+        "canonical": "oklch(89% 0.012 175)",
+        "dark": "oklch(28% 0.015 190)",
+        "cssVar": "--color-rule",
+        "tonalRamp": [
+          "oklch(15% 0.012 175)",
+          "oklch(26% 0.012 175)",
+          "oklch(38% 0.012 175)",
+          "oklch(49% 0.012 175)",
+          "oklch(61% 0.012 175)",
+          "oklch(72% 0.012 175)",
+          "oklch(84% 0.012 175)",
+          "oklch(95% 0.012 175)"
+        ]
+      },
+      "hatch": {
+        "role": "primary",
+        "displayName": "Hatch Green",
+        "canonical": "oklch(80% 0.03 172)",
+        "dark": "oklch(38% 0.035 172)",
+        "cssVar": "--color-hatch",
+        "tonalRamp": [
+          "oklch(15% 0.03 172)",
+          "oklch(26% 0.03 172)",
+          "oklch(38% 0.03 172)",
+          "oklch(49% 0.03 172)",
+          "oklch(61% 0.03 172)",
+          "oklch(72% 0.03 172)",
+          "oklch(84% 0.03 172)",
+          "oklch(95% 0.03 172)"
+        ]
+      },
+      "select": {
+        "role": "primary",
+        "displayName": "Arrival Tint",
+        "canonical": "oklch(88% 0.06 172)",
+        "dark": "oklch(38% 0.06 172)",
+        "cssVar": "--color-select",
+        "tonalRamp": [
+          "oklch(15% 0.06 172)",
+          "oklch(26% 0.06 172)",
+          "oklch(38% 0.06 172)",
+          "oklch(49% 0.06 172)",
+          "oklch(61% 0.06 172)",
+          "oklch(72% 0.06 172)",
+          "oklch(84% 0.06 172)",
+          "oklch(95% 0.06 172)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Green",
+        "canonical": "oklch(45% 0.11 172)",
+        "dark": "oklch(80% 0.11 172)",
+        "cssVar": "--color-focus",
+        "tonalRamp": [
+          "oklch(15% 0.11 172)",
+          "oklch(26% 0.11 172)",
+          "oklch(38% 0.11 172)",
+          "oklch(49% 0.11 172)",
+          "oklch(61% 0.11 172)",
+          "oklch(72% 0.11 172)",
+          "oklch(84% 0.11 172)",
+          "oklch(95% 0.11 172)"
+        ]
+      },
+      "critical": {
+        "role": "secondary",
+        "displayName": "Deep Oxide",
+        "canonical": "oklch(46% 0.14 32)",
+        "dark": "oklch(73% 0.13 32)",
+        "cssVar": "--color-critical",
+        "tonalRamp": [
+          "oklch(15% 0.14 32)",
+          "oklch(26% 0.14 32)",
+          "oklch(38% 0.14 32)",
+          "oklch(49% 0.14 32)",
+          "oklch(61% 0.14 32)",
+          "oklch(72% 0.14 32)",
+          "oklch(84% 0.14 32)",
+          "oklch(95% 0.14 32)"
+        ]
+      },
+      "high": {
+        "role": "secondary",
+        "displayName": "Ochre",
+        "canonical": "oklch(49% 0.1 70)",
+        "dark": "oklch(79% 0.11 75)",
+        "cssVar": "--color-high",
+        "tonalRamp": [
+          "oklch(15% 0.1 70)",
+          "oklch(26% 0.1 70)",
+          "oklch(38% 0.1 70)",
+          "oklch(49% 0.1 70)",
+          "oklch(61% 0.1 70)",
+          "oklch(72% 0.1 70)",
+          "oklch(84% 0.1 70)",
+          "oklch(95% 0.1 70)"
+        ]
+      },
+      "moderate": {
+        "role": "secondary",
+        "displayName": "Slate",
+        "canonical": "oklch(46% 0.025 250)",
+        "dark": "oklch(76% 0.02 250)",
+        "cssVar": "--color-moderate",
+        "tonalRamp": [
+          "oklch(15% 0.025 250)",
+          "oklch(26% 0.025 250)",
+          "oklch(38% 0.025 250)",
+          "oklch(49% 0.025 250)",
+          "oklch(61% 0.025 250)",
+          "oklch(72% 0.025 250)",
+          "oklch(84% 0.025 250)",
+          "oklch(95% 0.025 250)"
+        ]
+      }
+    },
+    "colorScheme": {
+      "default": "light",
+      "dark": "@media (prefers-color-scheme: dark) { :root:not([data-theme='light']) { ...re-pointed tokens } }",
+      "note": "Dark is derived, not inverted: the same tokens at the same hues, lamps low. Each colorMeta entry carries its dark value."
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The single page headline. 1.728rem on phones, 2.488rem from 640px; max 22ch, balanced.",
+        "cssVar": "--text-display"
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles: Results, Salience register, Supplier entries.",
+        "cssVar": "--text-lg"
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "The wordmark. Box values share the 1.2rem size in the typed face.",
+        "cssVar": "--text-md"
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All printed prose, with per-role measures from 52ch to 96ch.",
+        "cssVar": "--text-base"
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Every printed label, sentence case, untracked, in drop-out green.",
+        "cssVar": "--text-sm"
+      },
+      "label-strong": {
+        "displayName": "Label strong",
+        "purpose": "Box numbers, F- and S- reference codes, band words.",
+        "cssVar": "--text-sm"
+      },
+      "typed": {
+        "displayName": "Typed",
+        "purpose": "Every entered value: file name, date, supplier data, spend shares, inline code. 1.0625 times the surrounding size; 700 only in the table total.",
+        "cssVar": "--font-typed"
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Counts in the totals groups, typed, tabular.",
+        "cssVar": "--text-xl"
+      }
+    },
+    "fonts": [
+      {
+        "family": "Public Sans",
+        "weights": [
+          400,
+          700
+        ],
+        "source": "@fontsource/public-sans (self-hosted)",
+        "role": "Printed form"
+      },
+      {
+        "family": "Courier Prime",
+        "weights": [
+          400,
+          700
+        ],
+        "source": "@fontsource/courier-prime (self-hosted)",
+        "role": "Typed entries"
+      }
+    ],
+    "shadows": [],
+    "ruleForms": [
+      {
+        "name": "hairline",
+        "value": "1px solid",
+        "meaning": "Box rules, row rules, flagged status (ink), no listing found (row hairline), remarks fields."
+      },
+      {
+        "name": "dotted",
+        "value": "1px dotted var(--color-form-rule-strong)",
+        "meaning": "Fill line: nothing entered here yet."
+      },
+      {
+        "name": "dashed",
+        "value": "1px dashed var(--color-ink-2)",
+        "meaning": "Needs review: a person must still look. 2px dashed inset 8px marks an active drop target."
+      },
+      {
+        "name": "hatched",
+        "value": "repeating-linear-gradient(135deg, var(--color-hatch) 0 1px, var(--color-paper) 1px 5px)",
+        "meaning": "Not assessed, like a form's no-entry box."
+      },
+      {
+        "name": "double",
+        "value": "3px double var(--color-form-rule-strong)",
+        "meaning": "Closing rule: under the masthead, above a table total, above the footer."
+      }
+    ],
+    "focus": {
+      "value": "outline: 2px solid var(--color-focus); outline-offset: 2px",
+      "purpose": "Global :focus-visible ring, instant. The focused results heading uses a 4px offset."
+    },
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The only easing: the type-in of entered values.",
+        "cssVar": "--ease-out"
+      },
+      {
+        "name": "dur-short",
+        "value": "220ms",
+        "purpose": "Duration of one item's type-in.",
+        "cssVar": "--dur-short"
+      },
+      {
+        "name": "stagger",
+        "value": "40ms",
+        "purpose": "Delay step between typed items (index set per item via --i). Register rows start at step 9 and cap at step 21.",
+        "cssVar": "--stagger"
+      },
+      {
+        "name": "type-in",
+        "value": "@keyframes type-in { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } }",
+        "purpose": "Signature motion: entered values type into the form on screening."
+      },
+      {
+        "name": "press",
+        "value": "transform: translateY(1px) on :active, no transition",
+        "purpose": "Button press. Removed under reduced motion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media (prefers-reduced-motion: reduce) { animation: none; press transform: none }",
+        "purpose": "Everything renders in its end state."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px",
+        "purpose": "Page gutter 24px; display size 2.488rem; totals take one column per field."
+      },
+      {
+        "name": "form",
+        "value": "760px",
+        "purpose": "Entry grid becomes three columns; inline privacy line hides; supplier entries render as a table (stacked labelled fields below)."
+      },
+      {
+        "name": "register",
+        "value": "960px",
+        "purpose": "Register renders as the seven-column ruled grid with its head row (restacked below)."
+      },
+      {
+        "name": "lg",
+        "value": "1024px",
+        "purpose": "Page gutter 40px; the two totals groups stand side by side."
+      },
+      {
+        "name": "coarse-pointer",
+        "value": "(pointer: coarse)",
+        "purpose": "Buttons rise to a 44px minimum height."
+      }
+    ],
+    "container": {
+      "maxWidth": "1160px",
+      "gutter": [
+        "16px",
+        "24px from 640px",
+        "40px from 1024px"
+      ],
+      "overflowX": "clip"
+    },
+    "lineage": {
+      "craftFloor": "Hallmark (github.com/nutlope/hallmark), pinned by the user alongside Impeccable",
+      "world": "Entry Summary: customs-style declaration form with drop-out ink, without any real government form identity"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one filled ink button on the page, for the single primary action (Choose CSV).",
+      "html": "<button class=\"ds-btn ds-btn-primary\" type=\"button\">Choose CSV</button>",
+      "css": ".ds-btn { position: relative; font-family: var(--font-body); font-size: var(--text-base); font-weight: var(--weight-bold); min-height: 40px; padding: 0 var(--space-md); border-radius: var(--radius-control); border: var(--rule-hair) solid var(--color-form-rule-strong); background: var(--color-paper); color: var(--color-ink); cursor: pointer; } .ds-btn::after { content: ''; position: absolute; inset: -3px -1px; } .ds-btn:hover { background: var(--color-paper-2); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; } .ds-btn:disabled { opacity: 0.55; cursor: not-allowed; transform: none; } @media (pointer: coarse) { .ds-btn { min-height: 44px; } } @media (prefers-reduced-motion: reduce) { .ds-btn:active { transform: none; } } .ds-btn-primary { background: var(--color-ink); border-color: var(--color-ink); color: var(--color-paper); } .ds-btn-primary:hover { background: var(--color-ink-2); }"
+    },
+    {
+      "name": "Outline Button and Text Link",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Every other action: outline buttons on form stock, and a text link for minor actions.",
+      "html": "<div class=\"ds-actions\"><button class=\"ds-btn\" type=\"button\">Try sample suppliers</button><button class=\"ds-text-link\" type=\"button\">Download template</button><button class=\"ds-btn\" type=\"button\" disabled>Download risk register</button></div>",
+      "css": ".ds-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-sm) var(--space-md); font-family: var(--font-body); } .ds-btn { position: relative; font-family: var(--font-body); font-size: var(--text-base); font-weight: var(--weight-bold); min-height: 40px; padding: 0 var(--space-md); border-radius: var(--radius-control); border: var(--rule-hair) solid var(--color-form-rule-strong); background: var(--color-paper); color: var(--color-ink); cursor: pointer; } .ds-btn::after { content: ''; position: absolute; inset: -3px -1px; } .ds-btn:hover { background: var(--color-paper-2); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; } .ds-btn:disabled { opacity: 0.55; cursor: not-allowed; transform: none; } @media (pointer: coarse) { .ds-btn { min-height: 44px; } } @media (prefers-reduced-motion: reduce) { .ds-btn:active { transform: none; } } .ds-text-link { font-family: var(--font-body); font-size: var(--text-base); background: none; border: 0; padding: var(--space-xs) 0; color: var(--color-ink-2); text-decoration: underline; text-decoration-color: var(--color-form-rule-strong); text-underline-offset: 3px; cursor: pointer; } .ds-text-link:hover { color: var(--color-ink); text-decoration-color: currentColor; } .ds-text-link:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }"
+    },
+    {
+      "name": "Masthead",
+      "kind": "nav",
+      "refersTo": "masthead-form-title",
+      "description": "The form's head strip: the checked-box mark and wordmark, the printed form title, closed by a double rule.",
+      "html": "<header class=\"ds-masthead\"><a class=\"ds-wordmark\" href=\"#\"><svg class=\"ds-mark\" viewBox=\"0 0 20 20\" aria-hidden=\"true\" focusable=\"false\"><rect class=\"ds-mark-box\" x=\"0.75\" y=\"0.75\" width=\"18.5\" height=\"18.5\" rx=\"1.5\"/><rect class=\"ds-mark-fill\" x=\"5\" y=\"5\" width=\"10\" height=\"10\"/></svg><span>Salient</span></a><p class=\"ds-form-title\">Screening entry summary</p></header>",
+      "css": ".ds-masthead { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2xs) var(--space-lg); padding-block: var(--space-md) var(--space-sm); border-bottom: 3px double var(--color-form-rule-strong); font-family: var(--font-body); color: var(--color-ink); background: var(--color-paper); } .ds-wordmark { display: inline-flex; align-items: center; gap: var(--space-xs); font-size: var(--text-md); font-weight: var(--weight-bold); letter-spacing: -0.01em; color: inherit; text-decoration: none; } .ds-wordmark:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; } .ds-mark { width: 20px; height: 20px; } .ds-mark-box { fill: none; stroke: var(--color-form); stroke-width: 1.5; } .ds-mark-fill { fill: var(--color-ink); } .ds-form-title { margin: 0; color: var(--color-form); font-size: var(--text-sm); }"
+    },
+    {
+      "name": "Numbered Form Boxes",
+      "kind": "input",
+      "refersTo": "form-box",
+      "description": "The entry form: numbered boxes whose internal rules are a 1px gap over box rule green; blank fields show a dotted fill line, filled fields are typed.",
+      "html": "<section class=\"ds-entry\" aria-label=\"Screening entry\"><div class=\"ds-box ds-box-wide\"><p class=\"ds-box-label\"><span class=\"ds-box-no\">1</span> Supplier list</p><p class=\"ds-box-value\"><span class=\"ds-fill-line\" aria-hidden=\"true\"></span></p><p class=\"ds-box-help\">Drop a CSV here with <code class=\"ds-typed-text\">name</code>, <code class=\"ds-typed-text\">country</code> and <code class=\"ds-typed-text\">product</code> columns.</p></div><div class=\"ds-box\"><p class=\"ds-box-label\"><span class=\"ds-box-no\">3</span> Processed</p><p class=\"ds-box-printed\">In this browser. Nothing is uploaded.</p></div><div class=\"ds-box\"><p class=\"ds-box-label\"><span class=\"ds-box-no\">4</span> Screened on</p><p class=\"ds-box-value\"><span class=\"ds-typed\">24 Nov 2026</span></p></div></section>",
+      "css": ".ds-entry { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--rule-hair); margin: 0; background: var(--color-form-rule); border: var(--rule-hair) solid var(--color-form-rule); border-radius: var(--radius-box); font-family: var(--font-body); color: var(--color-ink); line-height: var(--leading-body); } .ds-box { background: var(--color-paper); padding: var(--space-xs) var(--space-md) var(--space-md); min-width: 0; } .ds-box-wide { grid-column: span 2; } .ds-box.is-dragging { background: var(--color-paper-2); outline: 2px dashed var(--color-form-rule-strong); outline-offset: -8px; } .ds-box-label { display: flex; align-items: baseline; gap: var(--space-xs); margin: 0; color: var(--color-form); font-size: var(--text-sm); line-height: 1.4; } .ds-box-no { font-weight: var(--weight-bold); font-variant-numeric: tabular-nums; } .ds-box-value { margin: var(--space-2xs) 0 0; min-height: 1.75em; font-size: var(--text-md); overflow-wrap: anywhere; } .ds-box-printed { margin: var(--space-2xs) 0 0; color: var(--color-ink-2); } .ds-box-help { margin: var(--space-sm) 0 0; max-width: 52ch; color: var(--color-ink-2); } .ds-fill-line { display: block; height: 1.4em; border-bottom: var(--rule-hair) dotted var(--color-form-rule-strong); } .ds-typed, .ds-typed-text { font-family: var(--font-typed); font-size: calc(1em * var(--typed-scale)); } "
+    },
+    {
+      "name": "Remarks Field",
+      "kind": "card",
+      "refersTo": "remark",
+      "description": "The form's remarks box for notes, caveats and file problems. A ruled field, not a card; the error variant turns deep oxide.",
+      "html": "<div class=\"ds-remark\"><p class=\"ds-box-label\">Before you act</p><p class=\"ds-remark-body\">Not on a list ≠ no risk. Screening starts due diligence: next, talk to suppliers, hear from workers, and plan how harm would be remedied.</p></div><div class=\"ds-remark ds-remark-error\" role=\"alert\"><p class=\"ds-box-label\">Problem with that file</p><p class=\"ds-remark-body\">That file has no supplier rows. Check it has a header row and at least one supplier.</p></div>",
+      "css": ".ds-remark { margin-top: var(--space-md); padding: var(--space-xs) var(--space-md) var(--space-sm); border: var(--rule-hair) solid var(--color-form-rule); border-radius: var(--radius-box); font-family: var(--font-body); line-height: var(--leading-body); } .ds-box-label { display: flex; align-items: baseline; gap: var(--space-xs); margin: 0; color: var(--color-form); font-size: var(--text-sm); line-height: 1.4; } .ds-remark-body { margin: 0; max-width: 80ch; color: var(--color-ink-2); } .ds-remark-error { border-color: var(--color-critical); } .ds-remark-error .ds-box-label { color: var(--color-critical); }"
+    },
+    {
+      "name": "Totals Group",
+      "kind": "custom",
+      "refersTo": "total-critical",
+      "description": "A labelled ruled group whose typed figures reconcile to its label; findings figures take their band ink, supplier figures stay ink.",
+      "html": "<div class=\"ds-totals-group\"><p class=\"ds-group-label\">Findings <span class=\"ds-figure\">8</span><span class=\"ds-group-note\">, of which 3 need review</span></p><dl class=\"ds-totals\"><div class=\"ds-box ds-total-critical\"><dt class=\"ds-box-label\">Critical</dt><dd class=\"ds-total-value\"><span class=\"ds-typed\">6</span></dd></div><div class=\"ds-box ds-total-high\"><dt class=\"ds-box-label\">High</dt><dd class=\"ds-total-value\"><span class=\"ds-typed\">2</span></dd></div><div class=\"ds-box ds-total-moderate\"><dt class=\"ds-box-label\">Moderate</dt><dd class=\"ds-total-value\"><span class=\"ds-typed\">0</span></dd></div></dl></div>",
+      "css": ".ds-totals-group { font-family: var(--font-body); color: var(--color-ink); } .ds-group-label { margin: 0 0 var(--space-2xs); color: var(--color-form); font-size: var(--text-sm); } .ds-group-label .ds-figure { color: var(--color-ink); font-weight: var(--weight-bold); font-variant-numeric: tabular-nums; } .ds-group-note { color: var(--color-ink-2); } .ds-totals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--rule-hair); margin: 0; background: var(--color-form-rule); border: var(--rule-hair) solid var(--color-form-rule); border-radius: var(--radius-box); } .ds-box { background: var(--color-paper); padding: var(--space-xs) var(--space-md) var(--space-md); min-width: 0; } .ds-box-label { display: flex; align-items: baseline; gap: var(--space-xs); margin: 0; color: var(--color-form); font-size: var(--text-sm); line-height: 1.4; } .ds-total-value { margin: var(--space-2xs) 0 0; font-size: var(--text-xl); line-height: 1.2; font-variant-numeric: tabular-nums; color: var(--color-ink); } .ds-total-critical .ds-total-value { color: var(--color-critical); } .ds-total-high .ds-total-value { color: var(--color-high); } .ds-total-moderate .ds-total-value { color: var(--color-moderate); } .ds-typed, .ds-typed-text { font-family: var(--font-typed); font-size: calc(1em * var(--typed-scale)); } "
+    },
+    {
+      "name": "Check Ramp",
+      "kind": "custom",
+      "refersTo": "ramp-pip-on",
+      "description": "The fixed five-box check ramp for severity and likelihood. Identical everywhere, never band-coloured.",
+      "html": "<p class=\"ds-ramp-demo\">Severity <span class=\"ds-ramp\" role=\"img\" aria-label=\"Severity 5 of 5\"><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span></span> Likelihood <span class=\"ds-ramp\" role=\"img\" aria-label=\"Likelihood 3 of 5\"><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip\"></span><span class=\"ds-pip\"></span></span></p>",
+      "css": ".ds-ramp-demo { display: flex; align-items: center; gap: var(--space-xs); margin: 0; font-family: var(--font-body); font-size: var(--text-sm); color: var(--color-form); } .ds-ramp { display: inline-flex; gap: 3px; } .ds-pip { width: 11px; height: 11px; border: var(--rule-hair) solid var(--color-form-rule-strong); border-radius: 1px; } .ds-pip.is-on { background: var(--color-ink); border-color: var(--color-ink); } "
+    },
+    {
+      "name": "Status Marks",
+      "kind": "chip",
+      "refersTo": "status-flagged",
+      "description": "Status by rule form: solid flagged, dashed needs review, hairline no listing found, hatched not assessed. The word always prints.",
+      "html": "<p class=\"ds-status-row\"><span class=\"ds-status ds-status-flagged\">Flagged</span><span class=\"ds-review\">Needs review</span><span class=\"ds-status ds-status-no-listing\">No listing found</span><span class=\"ds-status ds-status-not-assessed\">Not assessed</span></p>",
+      "css": ".ds-status-row { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin: 0; font-family: var(--font-body); } .ds-status { display: inline-block; padding: 0 var(--space-xs); border-radius: var(--radius-box); font-size: var(--text-sm); white-space: nowrap; } .ds-status-flagged { border: var(--rule-hair) solid var(--color-ink); color: var(--color-ink); } .ds-status-no-listing { border: var(--rule-hair) solid var(--color-rule); color: var(--color-ink-2); } .ds-status-not-assessed { border: var(--rule-hair) solid var(--color-form-rule-strong); background: repeating-linear-gradient(135deg, var(--color-hatch) 0 1px, var(--color-paper) 1px 5px); color: var(--color-ink); } .ds-review { display: inline-block; padding: 0 var(--space-xs); border: var(--rule-hair) dashed var(--color-ink-2); border-radius: var(--radius-box); font-size: var(--text-sm); color: var(--color-ink-2); white-space: nowrap; } "
+    },
+    {
+      "name": "Salience Register Row",
+      "kind": "custom",
+      "refersTo": "register-row",
+      "description": "One finding per ruled row, most salient first: F- code, band word with review mark, typed supplier with S- link, finding with source, two ramps, leverage. Types in on screening; lands on the arrival tint via :target.",
+      "html": "<ol class=\"ds-register\"><li class=\"ds-reg-row ds-typed-row ds-band-critical\" id=\"F-01\" style=\"--i: 0\"><div class=\"ds-cell-ref\"><span class=\"ds-ref\">F-01</span></div><div class=\"ds-cell-band\"><span class=\"ds-band\">Critical</span><span class=\"ds-review\">Needs review</span></div><div class=\"ds-cell-supplier\"><span class=\"ds-typed-text\">Example Yarn Co Ltd</span><span class=\"ds-sub\"><a class=\"ds-ref\" href=\"#S-05\">S-05</a> <span class=\"ds-typed-text\">Exampleland, cotton yarn</span></span></div><div class=\"ds-cell-finding\"><p class=\"ds-finding-title\">Product matches a listed good: cotton</p><p class=\"ds-why\">Listed for forced labor in this country. Severity first, then likelihood.</p><p class=\"ds-source\"><a class=\"ds-link\" href=\"#\">List of Goods, 2024 (sample subset)</a><span class=\"ds-muted\"> Matching row cited</span></p></div><div class=\"ds-cell-sev\"><span class=\"ds-cell-label\">Severity</span><span class=\"ds-ramp\" role=\"img\" aria-label=\"Severity 5 of 5\"><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span></span></div><div class=\"ds-cell-lik\"><span class=\"ds-cell-label\">Likelihood</span><span class=\"ds-ramp\" role=\"img\" aria-label=\"Likelihood 4 of 5\"><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip is-on\"></span><span class=\"ds-pip\"></span></span></div><div class=\"ds-cell-lev\"><span class=\"ds-cell-label\">Leverage</span><span>Medium</span><span class=\"ds-typed-text ds-share\">5.5%</span></div></li></ol>",
+      "css": ".ds-register { list-style: none; margin: 0; padding: 0; font-family: var(--font-body); color: var(--color-ink); line-height: var(--leading-body); } .ds-reg-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-areas: 'ref band band' 'supplier supplier supplier' 'finding finding finding' 'sev lik lev'; column-gap: var(--space-md); row-gap: var(--space-sm); padding-block: var(--space-md); border-bottom: var(--rule-hair) solid var(--color-rule); align-items: start; scroll-margin-top: var(--space-xl); } .ds-reg-row:target { background: var(--color-select); } .ds-cell-ref { grid-area: ref; } .ds-cell-band { grid-area: band; display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: flex-start; gap: var(--space-2xs); } .ds-cell-supplier { grid-area: supplier; display: grid; gap: var(--space-3xs); min-width: 0; } .ds-cell-finding { grid-area: finding; min-width: 0; } .ds-cell-sev { grid-area: sev; } .ds-cell-lik { grid-area: lik; } .ds-cell-lev { grid-area: lev; justify-items: end; font-size: var(--text-sm); } .ds-cell-sev, .ds-cell-lik, .ds-cell-lev { display: grid; gap: var(--space-2xs); } .ds-cell-label { color: var(--color-form); font-size: var(--text-sm); } .ds-band { font-size: var(--text-sm); font-weight: var(--weight-bold); } .ds-band-critical .ds-band { color: var(--color-critical); } .ds-band-high .ds-band { color: var(--color-high); } .ds-band-moderate .ds-band { color: var(--color-moderate); } .ds-sub, .ds-muted { color: var(--color-muted); font-size: var(--text-sm); } .ds-share { color: var(--color-muted); font-variant-numeric: tabular-nums; } .ds-finding-title { margin: 0; max-width: 68ch; } .ds-why { margin: var(--space-2xs) 0 0; max-width: 72ch; color: var(--color-ink-2); } .ds-source { margin: var(--space-xs) 0 0; color: var(--color-ink-2); } @media (min-width: 960px) { .ds-reg-row { grid-template-columns: 48px 104px minmax(180px, 1.3fr) minmax(240px, 2.2fr) 72px 72px 84px; grid-template-areas: none; row-gap: 0; } .ds-cell-ref, .ds-cell-band, .ds-cell-supplier, .ds-cell-finding, .ds-cell-sev, .ds-cell-lik, .ds-cell-lev { grid-area: auto; } .ds-cell-band { flex-direction: column; justify-content: flex-start; } .ds-cell-sev, .ds-cell-lik { padding-top: 6px; } .ds-cell-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; } } @keyframes ds-type-in { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } } .ds-typed-row { animation: ds-type-in var(--dur-short) var(--ease-out) both; animation-delay: calc(var(--i, 0) * var(--stagger)); } @media (prefers-reduced-motion: reduce) { .ds-typed-row { animation: none; } } .ds-typed, .ds-typed-text { font-family: var(--font-typed); font-size: calc(1em * var(--typed-scale)); } .ds-ref { color: var(--color-form); font-size: var(--text-sm); font-weight: var(--weight-bold); font-variant-numeric: tabular-nums; text-decoration: none; white-space: nowrap; } a.ds-ref:hover { text-decoration: underline; } a.ds-ref:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; } .ds-review { display: inline-block; padding: 0 var(--space-xs); border: var(--rule-hair) dashed var(--color-ink-2); border-radius: var(--radius-box); font-size: var(--text-sm); color: var(--color-ink-2); white-space: nowrap; } .ds-ramp { display: inline-flex; gap: 3px; } .ds-pip { width: 11px; height: 11px; border: var(--rule-hair) solid var(--color-form-rule-strong); border-radius: 1px; } .ds-pip.is-on { background: var(--color-ink); border-color: var(--color-ink); } .ds-link { color: inherit; text-decoration: underline; text-decoration-thickness: var(--rule-hair); text-decoration-color: var(--color-form-rule-strong); text-underline-offset: 3px; } .ds-link:hover { text-decoration-color: currentColor; } .ds-link:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; } "
+    },
+    {
+      "name": "Supplier Entries Table",
+      "kind": "custom",
+      "refersTo": "register-head",
+      "description": "Horizontal rules only: green column heads over a strong rule, row hairlines, a double-ruled bold total. Typed supplier data, printed goods and statuses, F- links back to the register.",
+      "html": "<div class=\"ds-table-wrap\" role=\"region\" aria-label=\"Supplier entries\" tabindex=\"0\"><table class=\"ds-entries\"><thead><tr><th scope=\"col\">Ref</th><th scope=\"col\">Supplier</th><th scope=\"col\">Country</th><th scope=\"col\">Findings</th><th scope=\"col\" class=\"ds-num\">Spend share</th><th scope=\"col\">Status</th></tr></thead><tbody><tr id=\"S-01\"><td class=\"ds-ref\">S-01</td><td class=\"ds-typed-text\">Example Yarn Co Ltd</td><td class=\"ds-typed-text\">Exampleland</td><td><a class=\"ds-ref\" href=\"#F-01\">F-01</a></td><td class=\"ds-num ds-typed-text\">62.0%</td><td><span class=\"ds-status ds-status-flagged\">Flagged</span></td></tr><tr id=\"S-02\"><td class=\"ds-ref\">S-02</td><td class=\"ds-typed-text\">Sample Trading Ltd</td><td class=\"ds-typed-text\">Otherland</td><td><span class=\"ds-muted\">None</span></td><td class=\"ds-num ds-typed-text\">38.0%</td><td><span class=\"ds-status ds-status-no-listing\">No listing found</span></td></tr></tbody><tfoot><tr><th scope=\"row\" colspan=\"4\">Total declared spend</th><td class=\"ds-num ds-typed-text\">100.0%</td><td></td></tr></tfoot></table></div>",
+      "css": ".ds-table-wrap { overflow-x: auto; scrollbar-color: var(--color-form-rule-strong) var(--color-paper); } .ds-table-wrap:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; } .ds-entries { width: 100%; border-collapse: collapse; font-family: var(--font-body); color: var(--color-ink); line-height: var(--leading-body); } .ds-entries th, .ds-entries td { padding: var(--space-sm) var(--space-md) var(--space-sm) 0; text-align: left; vertical-align: top; } .ds-entries thead th { padding-top: 0; padding-bottom: var(--space-xs); color: var(--color-form); font-size: var(--text-sm); font-weight: var(--weight-regular); white-space: nowrap; border-bottom: var(--rule-hair) solid var(--color-form-rule-strong); } .ds-entries tbody td { border-bottom: var(--rule-hair) solid var(--color-rule); } .ds-entries tfoot th, .ds-entries tfoot td { border-top: 3px double var(--color-form-rule-strong); font-weight: var(--weight-bold); } .ds-entries .ds-num { text-align: right; font-variant-numeric: tabular-nums; } .ds-entries td.ds-ref { padding-top: calc(var(--space-sm) + 2px); } .ds-entries tr:target { background: var(--color-select); } .ds-muted { color: var(--color-muted); } .ds-status { display: inline-block; padding: 0 var(--space-xs); border-radius: var(--radius-box); font-size: var(--text-sm); white-space: nowrap; } .ds-status-flagged { border: var(--rule-hair) solid var(--color-ink); color: var(--color-ink); } .ds-status-no-listing { border: var(--rule-hair) solid var(--color-rule); color: var(--color-ink-2); } .ds-typed, .ds-typed-text { font-family: var(--font-typed); font-size: calc(1em * var(--typed-scale)); } .ds-ref { color: var(--color-form); font-size: var(--text-sm); font-weight: var(--weight-bold); font-variant-numeric: tabular-nums; text-decoration: none; white-space: nowrap; } a.ds-ref:hover { text-decoration: underline; } a.ds-ref:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; } "
+    }
+  ],
+  "narrative": {
+    "northStar": "The Entry Summary",
+    "overview": "Salient is drawn as a ruled declaration form. Every supplier is an entry typed onto the form, and every finding is a reviewer's annotation ranked by harm to people. The form itself is printed in drop-out green on cool form stock; whatever the user supplied arrives typed in Courier Prime, in blue-black ink. The result reads as a research instrument whose output someone would cite. It is deliberately neither a KPI-card ESG dashboard nor a red-alert activist board, and it is never alarmist or playful.\n\nDensity is that of a working form: information-dense but calm, one centred column, structure carried entirely by rules. Hairline box rules are drawn once by a 1px grid gap, dotted fill lines stand in for fields not yet entered, and a 3px double rule closes the masthead, the table total and the page. Colour is scarce on purpose. Green belongs to the printed form, ink belongs to what was entered, and the three band inks (deep oxide, ochre, slate) are held in reserve for the band word and the totals. Dark is derived rather than inverted: the same form at night, lamps low.\n\nThe governing craft rules come from Hallmark (github.com/nutlope/hallmark), pinned by the user alongside Impeccable: OKLCH tokens only, declared on `:root`; at most two families and two weights; untracked sentence-case labels with no eyebrows; no em dashes in copy; no shadows and no card in a card; tables with horizontal rules only; exactly one filled primary button; an instant focus-visible ring; reduced-motion fallbacks; `overflow-x: clip` on the page; a capped, centred container. Fonts are self-hosted, so the page makes no third-party requests. The form borrows the grammar of customs paperwork but never a real government form's identity: no official form numbers, seals or agency marks.",
+    "keyCharacteristics": [
+      "Printed versus typed: Public Sans in drop-out green for the form, Courier Prime in ink for every entered value.",
+      "Numbered form boxes whose internal rules are a 1px gap over the rule colour.",
+      "Dotted fill lines mark every blank field, including the empty register.",
+      "Status carried by rule form (solid, dashed, hairline, hatched), never by hue alone.",
+      "One fixed five-box check ramp for severity and likelihood, identical everywhere.",
+      "F- and S- reference codes cross-link the register, the supplier table and the export.",
+      "Band colour appears only on the band word and the band totals.",
+      "Flat: no shadows, no cards, no side stripes.",
+      "One signature motion: entries type into the form."
+    ],
+    "rules": [
+      {
+        "name": "The Drop-Out Rule",
+        "body": "Everything printed on the form (box numbers, labels, column heads, reference codes, the form title) is drop-out green; everything entered onto it is ink. Green never carries the user's data.",
+        "section": "colors"
+      },
+      {
+        "name": "The Band-Word Rule",
+        "body": "Band colour appears in exactly two places: the band word in a register row and the band figures in the Findings totals. Never as fills, row tints, borders, stripes, ramp pips or icons. The oxide's only other job is the file-problem remark.",
+        "section": "colors"
+      },
+      {
+        "name": "The Derived Night Rule",
+        "body": "Dark mode re-points the same tokens to the same hues at low lamp: paper drops to 17.5% lightness, ink rises to 93%, and the greens and band inks lighten until they hold contrast. Nothing is inverted, and no token exists only in dark.",
+        "section": "colors"
+      },
+      {
+        "name": "The Printed and Typed Rule",
+        "body": "Public Sans is the form: headings, labels, instructions, findings and their rationale. Courier Prime is what was entered onto it: file name, date, supplier data, spend shares and totals. Never set a label in Courier Prime or a supplier name in Public Sans.",
+        "section": "typography"
+      },
+      {
+        "name": "The Untracked Label Rule",
+        "body": "Labels are sentence case at 0.8333rem with normal letter-spacing. No uppercase, no added tracking, no eyebrow or kicker above a heading. Negative tracking belongs to the display, headline and wordmark only.",
+        "section": "typography"
+      },
+      {
+        "name": "The Restack Rule",
+        "body": "On narrow screens, the register and the supplier table restack into labelled fields. Nothing on a phone scrolls sideways to be read.",
+        "section": "layout"
+      },
+      {
+        "name": "The Rules-Not-Shadows Rule",
+        "body": "Structure is drawn with rules, never lifted with shadow. If something needs separation, give it a rule of the right weight; if it needs emphasis, give it ink.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Near-Square Rule",
+        "body": "Corners stay at 2px for boxes and 4px for controls. Rounder corners would turn the form into a card.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Type-In Rule",
+        "body": "Only entered values type in: the file name, the date, the totals and the register rows. The printed form never animates, and nothing else on the page moves.",
+        "section": "components"
+      },
+      {
+        "name": "The One Filled Button Rule",
+        "body": "One filled ink button per screen, for the single primary action. Every other action is an outline button or a text link.",
+        "section": "components"
+      },
+      {
+        "name": "The 1px Gap Rule",
+        "body": "Internal box rules are drawn by a 1px grid gap over box rule green, never by borders on each cell, so every rule is drawn once and at one weight.",
+        "section": "components"
+      },
+      {
+        "name": "The Status-by-Rule-Form Rule",
+        "body": "Supplier and match status is told by the form of its rule (solid flagged, dashed needs review, hairline no listing, hatched not assessed), always with the word beside it and never by hue alone.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do draw internal box rules with the 1px grid gap over `--color-form-rule`, with the box faces in `--color-paper`.",
+      "Do set every printed element (box numbers, labels, column heads, reference codes, the form title) in drop-out green Public Sans, and every entered value in Courier Prime ink.",
+      "Do show a blank field as a dotted fill line (1px dotted `--color-form-rule-strong`), never as placeholder text or a dash.",
+      "Do carry status by rule form (solid ink flagged, dashed needs review, hairline no listing, hatched not assessed) and always print the status word.",
+      "Do use the same five-box ramp, with 11px pips, for every severity and likelihood value and for its legend.",
+      "Do give every finding an F- code and every supplier an S- code, link them both ways, and land links on the `--color-select` arrival tint.",
+      "Do keep the one filled ink button for the single primary action; every other action is an outline button or a text link.",
+      "Do close a form region with the 3px double rule in `--color-form-rule-strong`: under the masthead, above a table total, above the footer.",
+      "Do keep focus as the instant 2px `--color-focus` outline at 2px offset, and give every animation a reduced-motion fallback that renders the end state.",
+      "Do derive dark values by re-pointing the same tokens at the same hues, lamps low, never by inverting.",
+      "Do restack tables and the register into labelled fields on narrow screens instead of scrolling them sideways."
+    ],
+    "donts": [
+      "Don't colour anything with a band ink except the band word in a register row and the band figures in the Findings totals (and the oxide on a file-problem remark). No band fills, row tints, borders, pips or icons.",
+      "Don't add coloured side stripes (left or right borders thicker than 1px) to rows, remarks or boxes; the severity left rule was tried and refused.",
+      "Don't use cards or shadows: no `box-shadow`, no raised or tinted panels at rest, and no ruled box inside a ruled box (controls and status marks are the only bordered things that sit inside a box).",
+      "Don't add eyebrows, kickers, uppercase or letter-spaced labels; labels are sentence case at normal tracking.",
+      "Don't introduce a third family or a third weight (Public Sans and Courier Prime, 400 and 700 only), and don't set user data in Public Sans or printed labels in Courier Prime.",
+      "Don't add vertical rules to tables; tables use horizontal rules only.",
+      "Don't use em dashes in interface copy.",
+      "Don't define colours outside the OKLCH tokens on `:root`, or write raw colour values into components.",
+      "Don't imitate a real government form: no official form numbers, seals, crests or agency marks. Box numbers are plain 1 to 4.",
+      "Don't use red-alert treatments (filled red banners, warning icons, pulsing) or KPI-card dashboard tiles; findings are annotations, not alarms.",
+      "Don't label any supplier \"clear\" or give \"No listing found\" a positive colour; it stays the quietest hairline mark.",
+      "Don't give leverage or spend share weight that competes with severity; they stay a plain word and a faded typed figure in the last column.",
+      "Don't animate anything except the type-in of entered values, and don't add hover transitions to controls."
+    ]
+  }
+}

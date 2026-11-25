@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "name": "UFLPA Entity List",
+    "publisher": "U.S. Department of Homeland Security, Forced Labor Enforcement Task Force",
+    "edition": "sample subset (dhs.gov page last updated 2026-10-28)",
+    "sourceUrl": "https://www.dhs.gov/uflpa-entity-list",
+    "retrievedAt": null,
+    "sample": true,
+    "notice": "Development sample: four entries copied verbatim from dhs.gov. Run `npm run data:fetch` to replace it with the full official list."
+  },
+  "entities": [
+    {
+      "name": "Aksu Huafu Color Spinning Co., Ltd.",
+      "aliases": ["Aksu Huafu Textiles Co., Ltd.", "Akesu Huafu", "Aksu Huafu Dyed Melange Yarn", "Akesu Huafu Melange Yarn Co., Ltd."],
+      "formerNames": [],
+      "sections": [],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Baoding LYSZD Trade and Business Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Hetian Haolin Hair Accessories Co. Ltd.",
+      "aliases": ["Hotan Haolin Hair Accessories", "Hollin Hair Accessories"],
+      "formerNames": [],
+      "sections": [],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Xinjiang Goens Energy Technology Co., Ltd.",
+      "aliases": [],
+      "formerNames": ["Xinjiang GCL New Energy Material Technology Co., Ltd.", "Xinjiang GCL New Energy Materials Technology Co., Ltd."],
+      "sections": [],
+      "effectiveDate": "2026-08-03"
+    }
+  ]
+}
