@@ -11,7 +11,32 @@ It ranks what it finds by **salience**, the UN Guiding Principles' term for seve
 
 It runs entirely in your browser. Your supplier list never leaves your machine.
 
-> Climate got a thousand tools. Forced labor got spreadsheets.
+**Try it:** https://tamjidb.github.io/salient/
+
+## How to use it
+
+You don't need to install anything or sign up.
+
+1. Open **https://tamjidb.github.io/salient/**.
+2. Click **Try sample suppliers** to see a full run on 11 fictional companies.
+3. To screen your own list, click **Choose CSV** or drag a file onto box 1. Use one row per supplier, with these columns:
+   - `name`, `country` and `product` (required)
+   - `spend` (optional, used to show your leverage)
+
+   **Download template** gives you a starter file.
+
+### Reading the results
+
+- **Findings** are listed most severe first, then most likely. Each one says why it was flagged and which list and edition it came from.
+- **Needs review** means the match isn't certain. That's either a company name that is close to a listed one, or a product that typically contains a listed input. Check it before acting on it.
+- **Leverage** shows each supplier's share of your spend. It helps you plan what to do, but it never changes the ranking.
+- **Supplier status:**
+  - *Flagged* means the supplier has at least one finding.
+  - *No listing found* means nothing matched, which is not the same as no risk.
+  - *Not assessed* means the product or country couldn't be recognized. Try a plainer product name, such as "cotton t-shirts" instead of an internal code.
+- **Download risk register** saves every finding as a CSV with its source, for your records or a modern slavery statement.
+
+Salient is a screening aid, not legal advice. It's a starting point for due diligence: the next steps are talking to suppliers, hearing from workers, and planning how any harm would be remedied.
 
 ## Why
 
