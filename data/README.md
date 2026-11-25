@@ -7,17 +7,24 @@
 | `product-synonyms.json` | Hand-curated map from everyday product words to DOL goods, as the good itself (`is`) or as an upstream input (`contains`) | This repo. Contributions welcome |
 | `sample/suppliers.csv` | Demo supplier list (fictional companies, apart from two rows that echo listed names to show alias matching) | This repo |
 
-## Sample vs official
+## What's committed
 
-The committed `dol-goods.json` and `uflpa-entities.json` start as **small samples** (`"sample": true`). They hold a handful of entries checked against the source pages by hand. The app shows a banner while sample data is loaded.
+Both lists are the full official versions. Each file's `meta` block records the edition and `retrievedAt` time.
 
-Run this to replace them with the full official lists:
+- **DOL List of Goods, 2024 edition:** 530 listings covering 204 goods in 82 countries and areas, read from DOL's Excel file.
+  - The **Goods** sheet gives one row per country and good, with Child Labor, Forced Labor and Forced Child Labor marked in their own columns.
+  - The **Downstream Goods** sheet lists goods made from listed inputs. For example, garments (cotton) from China are made from Chinese cotton. These become *inputs produced with* listings, and each carries an `inputs` field naming what it was made from.
+- **UFLPA Entity List** (dhs.gov page as updated 28 Oct 2026): 195 entities, with 132 aliases and former names, their statutory sections and effective dates.
+
+Refresh them with:
 
 ```bash
 npm run data:fetch
 ```
 
-The fetch fails without writing anything if a source changes shape, using sanity thresholds and unknown-category checks. A weekly GitHub Action runs it and opens a PR when the data changes.
+The fetch fails without writing anything if a source changes shape, using sanity thresholds and unknown-category checks. A weekly GitHub Action runs it and opens a PR when the data changes. For that to work, the repo setting "Allow GitHub Actions to create and approve pull requests" must be on.
+
+If you set `"sample": true` in a file's `meta`, the app shows its sample-data remark.
 
 ## Licensing
 

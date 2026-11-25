@@ -26,6 +26,8 @@ export interface DolListing {
   /** Good, spelled exactly as DOL spells it. */
   good: string;
   exploitation: Exploitation[];
+  /** For downstream goods: the listed inputs they are made from (DOL's "Downstream Goods" sheet). */
+  inputs?: { country: string; good: string }[];
 }
 
 export interface DolDataset {

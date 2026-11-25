@@ -2,40 +2,2000 @@
   "meta": {
     "name": "UFLPA Entity List",
     "publisher": "U.S. Department of Homeland Security, Forced Labor Enforcement Task Force",
-    "edition": "sample subset (dhs.gov page last updated 2026-10-28)",
+    "edition": "last updated 2026-10-28",
     "sourceUrl": "https://www.dhs.gov/uflpa-entity-list",
-    "retrievedAt": null,
-    "sample": true,
-    "notice": "Development sample: four entries copied verbatim from dhs.gov. Run `npm run data:fetch` to replace it with the full official list."
+    "retrievedAt": "2026-11-25T18:24:27.034Z",
+    "sample": false
   },
   "entities": [
     {
-      "name": "Aksu Huafu Color Spinning Co., Ltd.",
-      "aliases": ["Aksu Huafu Textiles Co., Ltd.", "Akesu Huafu", "Aksu Huafu Dyed Melange Yarn", "Akesu Huafu Melange Yarn Co., Ltd."],
+      "name": "Aksu Aodu Sugar Industry Co., Ltd.",
+      "aliases": [],
       "formerNames": [],
-      "sections": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Aksu Biaoxin Fiber Co., Ltd.",
+      "aliases": [],
+      "formerNames": [
+        "Aksu Shangheng Fiber Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
       "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Aksu Huafu Color Spinning Co., Ltd.",
+      "aliases": [
+        "Aksu Huafu Textiles Co., Ltd.",
+        "Akesu Huafu",
+        "Aksu Huafu Dyed Melange Yarn",
+        "Akesu Huafu Melange Yarn Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Alar Nanjiang Carbon New Material Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Anhui Xinya New Materials Co., Ltd.",
+      "aliases": [],
+      "formerNames": [
+        "Chaohu Youngor Color Spinning Technology Co., Ltd.",
+        "Chaohu Xinya Color Spinning Technology Co., Ltd."
+      ],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-12-11"
+    },
+    {
+      "name": "Anhui Yaozhiyuan Biotechnology Development Co., Ltd.",
+      "aliases": [
+        "Anhui Yaozhiyuan Chinese Herbal Medicine Co., Ltd.",
+        "Anhui Yaozhiyuan Chinese Medicinal Materials Co., Ltd.",
+        "Anhui Yaozhiyuan Biological Technology Development Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Annan Canned Food Co., Ltd.",
+      "aliases": [
+        "Nanling County Annan Canned Food Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Awati Huafu Textile Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Baiyin Nonferrous Group Co., Ltd.",
+      "aliases": [
+        "Baiyin Nonferrous",
+        "BNMC"
+      ],
+      "formerNames": [
+        "Baiyin Nonferrous Metals Company"
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
     },
     {
       "name": "Baoding LYSZD Trade and Business Co., Ltd.",
       "aliases": [],
       "formerNames": [],
-      "sections": [],
+      "sections": [
+        "i",
+        "v"
+      ],
       "effectiveDate": "2022-06-21"
     },
     {
-      "name": "Hetian Haolin Hair Accessories Co. Ltd.",
-      "aliases": ["Hotan Haolin Hair Accessories", "Hollin Hair Accessories"],
+      "name": "Baoji Jucheng Titanium Industry Co., Ltd.",
+      "aliases": [],
       "formerNames": [],
-      "sections": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Baotou Meike Silicon Energy Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Baowu Group Xinjiang Bayi Iron and Steel Co., Ltd.",
+      "aliases": [
+        "Xinjiang Bayi Iron and Steel Co. Ltd.",
+        "Baosteel Group Xinjiang Bayi Iron and Steel Co., Ltd.",
+        "Bayi Iron and Steel"
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-10-03"
+    },
+    {
+      "name": "BGI Genomics Co., Ltd.",
+      "aliases": [
+        "BGI Genomics"
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2026-10-29"
+    },
+    {
+      "name": "Binzhou Chinatex Yintai Industrial Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Camel Group Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-08-02"
+    },
+    {
+      "name": "Century Sunshine Group Holdings, Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-08-09"
+    },
+    {
+      "name": "Chacha Food Company, Limited",
+      "aliases": [
+        "Chacha Food Co., Ltd.",
+        "Qia Qia Food",
+        "Chia Chia Food Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Chalkis Health Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [
+        "Xinjiang Chalkis Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Changhong Meiling Co., Ltd.",
+      "aliases": [],
+      "formerNames": [
+        "Hefei Meiling Co., Ltd.",
+        "Hefei Meiling Group Holdings Limited"
+      ],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-10-03"
+    },
+    {
+      "name": "Changji Esquel Textile Co., Ltd.",
+      "aliases": [
+        "Changji Yida Textile Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-01"
+    },
+    {
+      "name": "Changzhou Guanghui Food Ingredients Co., Ltd.",
+      "aliases": [
+        "GSweet",
+        "Changzhou Guanghui Food Additive Co., Ltd.",
+        "Changzhou Guanghui Food Technology Co., Ltd."
+      ],
+      "formerNames": [
+        "Changzhou Guanghui Biotechnology Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-10-03"
+    },
+    {
+      "name": "Chenguang Biotech Group Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2023-08-02"
+    },
+    {
+      "name": "Chenguang Biotechnology Group Yanqi Co. Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2023-08-02"
+    },
+    {
+      "name": "China Cotton Group Henan Logistics Park Co., Ltd., Xinye Branch",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "China Cotton Group Nangong Hongtai Cotton Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "China Cotton Group Shandong Logistics Park Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "China Cotton Group Xinjiang Cotton Co.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "COFCO Sugar Holdings Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-12-11"
+    },
+    {
+      "name": "Dalian Sunspeed Foods Co., Ltd.",
+      "aliases": [
+        "Dalian Shengchi International Trade Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Dongguan Oasis Shoes Co., Ltd.",
+      "aliases": [
+        "Dongguan Oasis Shoe Industry Co. Ltd.",
+        "Dongguan Luzhou Shoes Co., Ltd.",
+        "Dongguan Lvzhou Shoes Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-06-12"
+    },
+    {
+      "name": "Donghai JA Solar Technology Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Esquel Group",
+      "aliases": [
+        "Esquel China Holdings Limited"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-01"
+    },
+    {
+      "name": "Fujian Minlong Warehousing Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Fujian Septwolves Industry Co., Ltd.",
+      "aliases": [
+        "Septwolves"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Gansu Yasheng International Trading Co., Ltd.",
+      "aliases": [
+        "Gansu Yasheng International Trade Co., Ltd.",
+        "Yasheng International Trade"
+      ],
+      "formerNames": [
+        "Gansu Yasheng International Trade Group Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Geehy Semiconductor Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-06-12"
+    },
+    {
+      "name": "Guangdong Esquel Textile Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-01"
+    },
+    {
+      "name": "Guangxi Kelun Pharmaceutical Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Hangzhou Union Biotechnology Co., Ltd.",
+      "aliases": [
+        "Hangzhou Youer Biotechnology Co., Ltd.",
+        "Youer Biotech",
+        "Union Biotech"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Hebei Suguo International Trade Co., Ltd.",
+      "aliases": [
+        "Suguo International"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Hebei Tomato Industry Co., Ltd.",
+      "aliases": [
+        "Hebei Temeite Industrial Group Co., Ltd."
+      ],
+      "formerNames": [
+        "Hebei Temeite International Trade Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Hefei Bitland Information Technology Co. Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
       "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Hefei Bitland Information Technology Co., Ltd.",
+      "aliases": [
+        "Anhui Hefei Baolongda Information Technology",
+        "Hefei Baolongda Information Technology Co., Ltd.",
+        "Hefei Bitland Optoelectronic Technology Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Henan Guorong Electronic Technology Co., Ltd.",
+      "aliases": [
+        "Goroe",
+        "Guorong Shares"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Henan Tongzhou Cotton Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Henan Yumian Group Industrial Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Henan Yumian Logistics Co., Ltd.",
+      "aliases": [],
+      "formerNames": [
+        "841 Cotton Transfer Warehouse"
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Hengshui Cotton and Linen Corporation Reserve Library",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Hetian Haolin Hair Accessories Co. Ltd.",
+      "aliases": [
+        "Hotan Haolin Hair Accessories",
+        "Hollin Hair Accessories"
+      ],
+      "formerNames": [],
+      "sections": [
+        "i",
+        "v"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Hetian Taida Apparel Co., Ltd",
+      "aliases": [
+        "Hetian TEDA Garment"
+      ],
+      "formerNames": [],
+      "sections": [
+        "i"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Hetian Taida Apparel Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Heze Cotton and Linen Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Heze Cotton and Linen Economic and Trade Development Corporation",
+      "aliases": [
+        "Heze Cotton and Linen Trading Development General Company"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Hongyuan Green Energy Co., Ltd.",
+      "aliases": [
+        "HY Solar",
+        "Hoyuan Green Energy Co. Ltd. and"
+      ],
+      "formerNames": [
+        "Wuxi Shangji CNC Co., Ltd.",
+        "Wuxi Shangji Automation Co., Ltd.",
+        "Wuxi Shangji Grinding Machine Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Hongyuan New Materials (Baotou) Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Hoshine Silicon Industry (Shanshan) Co., Ltd",
+      "aliases": [
+        "Hesheng Silicon Industry (Shanshan) Co."
+      ],
+      "formerNames": [],
+      "sections": [
+        "i"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Hoshine Silicon Industry (Shanshan) Co., Ltd., and Subsidiaries",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Huafu Fashion Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Huangmei Xiaochi Yinfeng Cotton",
+      "aliases": [],
+      "formerNames": [
+        "Hubei Provincial Cotton Corporation's Xiaochi Transfer Reserve"
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Hubei Jingtian Cotton Industry Group Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Hubei Qirun Investment Development Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Hubei Yinfeng Cotton Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Hubei Yinfeng Warehousing and Logistics Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Hunan Aihua Group Co., Ltd.",
+      "aliases": [
+        "Aihua Group",
+        "AiSHi"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Hunan Nanmo Biotechnology Co., Ltd.",
+      "aliases": [
+        "Hunan Nanmomo Technology Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Huyanghe Huafu Hongsheng Cotton Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Inner Mongolia Qileyuan Food Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Inner Mongolia Xuanda Food Co., Ltd.",
+      "aliases": [
+        "Xuanda Food"
+      ],
+      "formerNames": [
+        "Wuyuan County Xuanda Cereals, Oils and Foods Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Jiangsu Meike Solar Technology Co., Ltd.",
+      "aliases": [
+        "Meike Co. and"
+      ],
+      "formerNames": [
+        "Jiangsu Gaozhao New Energy Development Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Jiangsu Tiangong Technology Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Jiangsu Yinhai Nongjiale Storage Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Jiangsu Yinlong Warehousing and Logistics Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Jiangyin Lianyun Co. Ltd.",
+      "aliases": [
+        "Jiangyin Intermodal Transport Co. and Jiangyin United Transport Co."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Jiangyin Xiefeng Cotton and Linen Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Jiangyin Xinren Aluminum Foil Technology Co., Ltd.",
+      "aliases": [
+        "Xinren Aluminum Foil"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Jiangyin Xinren Aluminum Technology Co., Ltd.",
+      "aliases": [
+        "Xinren Aluminum"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Jinan Haihong International Trade Co., Ltd.",
+      "aliases": [],
+      "formerNames": [
+        "Jinan Haifang Trading Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Jining Pengjie Trading Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Junan Jinsheng Import & Export Co., Ltd.",
+      "aliases": [
+        "Junan County Jinsheng Import and Export Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Juye Cotton and Linen Station of the Heze Cotton and Linen Corporation",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Kashgar Aodu Sugar Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Kashgar Construction Engineering (Group) Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-08-09"
+    },
+    {
+      "name": "Kashgar Jiangguoguo Agricultural Technology Co., Ltd.",
+      "aliases": [
+        "Jiangguoguo"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Kingherbs Limited",
+      "aliases": [
+        "Changsha Jincao Biotechnology Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "KTK Group",
+      "aliases": [
+        "Jiangsu Jinchuang Group",
+        "Jiangsu Jinchuang Holding Group",
+        "KTK Holding"
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Kuche Zongheng Cotton Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Kuitun Jinfu Textile Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Kuitun Yadasi Textile Co., Ltd.",
+      "aliases": [
+        "Kuitun Yadaxi Textile Co., Ltd."
+      ],
+      "formerNames": [
+        "Xinjiang Tianmian Foundation Textile Co., Ltd.",
+        "Xinjiang Tianhong Jiye Textile Co., Ltd."
+      ],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Lanxi Huachu Logistics Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Linxi County Fangpei Cotton Buying and Selling Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Lop County Hair Product Industrial Park",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Lop County Meixin Hair Products Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "MGI Tech Co., Ltd.",
+      "aliases": [
+        "MGI"
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2026-10-29"
+    },
+    {
+      "name": "Nanjing Lilai Pharmaceutical Technology Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Nanjing Synergy Textiles Co., Ltd.",
+      "aliases": [
+        "Nanjing Xinyi Cotton Textile Printing and Dyeing",
+        "Nanjing Xinyi Cotton Textile"
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Nanyang Hongmian Logistics Co., Ltd.",
+      "aliases": [
+        "Nanyang Red Cotton Logistics Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Ninestar Corporation",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-06-12"
+    },
+    {
+      "name": "Ningbo Huafu Donghao Industrial Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Ninghai Huafu Textile Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "No. 4 Vocation Skills Education Training Center (VSETC)",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Qingdao Vital Nutraceutical Ingredients BioScience Co., Ltd.",
+      "aliases": [
+        "Qingdao Weiyikang Biotechnology Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Rare Earth Magnesium Technology Group Holdings, Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-08-09"
+    },
+    {
+      "name": "SDIC Xinjiang Lithium Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "SDIC Xinjiang Luobupo Potash Co., Ltd.",
+      "aliases": [
+        "SDIC Xinjiang Lop Nur Potash Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Shandong Gold Mining Co., Ltd.",
+      "aliases": [
+        "Shandong Gold"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Shandong Gold Smelting Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Shandong Meijia Group Co., Ltd.",
+      "aliases": [
+        "Rizhao Meijia Group"
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-06-12"
+    },
+    {
+      "name": "Shandong Weiqiao Pioneering Group Co., Ltd.",
+      "aliases": [
+        "Shandong Weiqiao Chuangye Group Co., Ltd.",
+        "Shandong Weiqiao Venture Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Shandong Weiqiao Textile Technology Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Shanghai JUMP Machinery & Technology Co., Ltd.",
+      "aliases": [
+        "Shanghai Jiapai Machinery Technology Co., Ltd."
+      ],
+      "formerNames": [
+        "Shanghai Chituma Food Machinery Technology Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Shaya Yinhua Cotton Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Shenzhen BGI Technology Co., Ltd.",
+      "aliases": [
+        "BGI Group",
+        "BGI Holdings"
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2026-10-29"
+    },
+    {
+      "name": "Shihezi Huafu Hongfeng Cotton Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Shihezi Huafu Hongsheng Cotton Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Shihezi Standard Fiber Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Shihezi Xinren Battery Aluminum Foil Technology Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Shuangliang Silicon Materials (Baotou) Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Sichuan Jingweida Technology Group Co., Ltd.",
+      "aliases": [
+        "Sichuan Mianyang Jingweida Technology Co., Ltd. and JWD Technology"
+      ],
+      "formerNames": [
+        "Mianyang High-tech Zone Jingweida Technology Co., Ltd."
+      ],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-12-11"
+    },
+    {
+      "name": "Sichuan Yuan’an Pharmaceutical Co., Ltd.",
+      "aliases": [
+        "Sichuan Yuanan Pharmaceutical Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Taiyuan Weishan International Economic Business Co., Ltd.",
+      "aliases": [
+        "Taiyuan Weishan International Trade Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Tanyuan Technology Co. Ltd.",
+      "aliases": [
+        "Carbon Yuan Technology",
+        "Changzhou Carbon Yuan Technology Development",
+        "Carbon Element Technology",
+        "Jiangsu Carbon Element Technology",
+        "Tanyuan Technology Development"
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "TBEA Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Tefeng Pharmaceutical Co., Ltd.",
+      "aliases": [
+        "Tefeng Pharmaceutical"
+      ],
+      "formerNames": [
+        "Tefeng Health Technology Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "The TNN Development Limited",
+      "aliases": [
+        "Dehui (Dalian) International Trade Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Tianjin Dunhe International Trade Co., Ltd.",
+      "aliases": [
+        "Dunhe Foods"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Tianjin Kunyu International Co., Ltd.",
+      "aliases": [
+        "China Kunyu Industrial Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Tianjin Tianwei Food Co., Ltd.",
+      "aliases": [],
+      "formerNames": [
+        "Tianjin Sanhe Fruit and Vegetable Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Tianshan Aluminum Group Co., Ltd.",
+      "aliases": [],
+      "formerNames": [
+        "Shimge Pump Industry Group Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Turpan Esquel Textile Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-01"
+    },
+    {
+      "name": "Weifang Alice Food Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Western Gold Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Western Gold Hami Gold Mine Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Western Gold Karamay Hatu Gold Mine Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Wugang Zhongchang Logistics Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Xinjiang Baiyin Mining Development Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Biochemical Pharmaceutical Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Communications Construction Group Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Cotton Industry Group Jiashi Cotton Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Cotton Industry Group Yuepu Lake Cotton Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Daqo New Energy Co., Ltd.",
+      "aliases": [
+        "Xinjiang Great New Energy Co., Ltd.",
+        "Xinjiang Daxin Energy Co., Ltd.",
+        "Xinjiang Daqin Energy Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Xinjiang Daqo New Energy, Co. Ltd",
+      "aliases": [
+        "Xinjiang Great New Energy Co., Ltd.",
+        "Xinjiang Daxin Energy Co., Ltd.",
+        "Xinjiang Daqin Energy Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "i"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Xinjiang East Hope Nonferrous Metals Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "i"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Xinjiang Energy (Group) Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Energy (Group) Real Estate Co., Ltd",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2025-01-15"
     },
     {
       "name": "Xinjiang Goens Energy Technology Co., Ltd.",
       "aliases": [],
-      "formerNames": ["Xinjiang GCL New Energy Material Technology Co., Ltd.", "Xinjiang GCL New Energy Materials Technology Co., Ltd."],
-      "sections": [],
+      "formerNames": [
+        "Xinjiang GCL New Energy Material Technology Co., Ltd.",
+        "Xinjiang GCL New Energy Materials Technology Co., Ltd."
+      ],
+      "sections": [
+        "i"
+      ],
       "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Habahe Ashele Copper Co., Ltd.",
+      "aliases": [
+        "Ashele Copper"
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2024-08-09"
+    },
+    {
+      "name": "Xinjiang Huafu Color Spinning Group Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Huafu Cotton Industry Group Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Huafu Hengfeng Cotton Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Huafu Hongfeng Agricultural Development Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Huafu Textile Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Huashidan Pharmaceutical Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Jinbao Mining Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Jinchuan Mining Industry Co., Ltd.",
+      "aliases": [
+        "Xinjiang Jinchuan Company"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Junggar Cotton and Linen Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "i",
+        "v"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Xinjiang Liufu Textile Industrial Park Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Nonferrous Metals Industry Group Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Xinjiang Nuziline Bio-Pharmaceutical Co., Ltd.",
+      "aliases": [
+        "Xinjiang Xinziyuan Biopharmaceutical Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Production and Construction Corps",
+      "aliases": [
+        "XPCC",
+        "Xinjiang Corps",
+        "Bingtuan"
+      ],
+      "formerNames": [],
+      "sections": [
+        "i"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Xinjiang Production and Construction Corps (XPCC) and its subordinate and affiliated entities",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Xinjiang Production and Construction Corps Eighth Division Tianshan Aluminum Co., Ltd.",
+      "aliases": [
+        "Tian Aluminum Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Shengfu Cotton Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Shenhuo Coal and Electricity Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-06-12"
+    },
+    {
+      "name": "Xinjiang Tefeng Pharmaceutical Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Tengxiang Magnesium Products Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2024-08-09"
+    },
+    {
+      "name": "Xinjiang Tianchi Energy Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Tianfu Cotton Supply Chain Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Tianhong Xinba Cotton Industry Co., Ltd.",
+      "aliases": [
+        "Xinjiang Tianhong New Eight Cotton Industry Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Tianhongji Technology Co., Ltd.",
+      "aliases": [],
+      "formerNames": [
+        "Xinjiang Tianhongji Silicon Industry Co., Ltd."
+      ],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Tianshan Snow Lotus Pharmaceutical Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Tianshan Wool Textile Co. Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-09-27"
+    },
+    {
+      "name": "Xinjiang Tianshan Yingda Carbon Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Tianyun Organic Agriculture Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Tianzhan New Material Technology Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Xinjiang Yinlong Agricultural International Cooperation Co.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-05-17"
+    },
+    {
+      "name": "Xinjiang Zefu Cotton Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Zhonghe Co., Ltd.",
+      "aliases": [
+        "Xinjiang Joinworld Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Xinjiang Zhongtai Chemical Co. Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-06-12"
+    },
+    {
+      "name": "Xinjiang Zhongtai Group Co. Ltd",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-09-27"
+    },
+    {
+      "name": "Xinjiang Zijin Nonferrous Metals Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Xinjiang Zijin Zinc Industry Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii",
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Yili Chuanning Biotechnology Co., Ltd.",
+      "aliases": [
+        "Twinings Bio",
+        "CN BIO"
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Yili Zhuowan Garment Manufacturing Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2022-06-21"
+    },
+    {
+      "name": "Zhangzhou Hang Fat Import & Export Co., Ltd.",
+      "aliases": [
+        "Zhangzhou Hengfa Import and Export Co., Ltd."
+      ],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2024-11-25"
+    },
+    {
+      "name": "Zhejiang Weixin Trading Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
+    },
+    {
+      "name": "Zhengzhou Synear Food Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2026-08-03"
+    },
+    {
+      "name": "Zhuhai Apex Microelectronics Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-06-12"
+    },
+    {
+      "name": "Zhuhai G&G Digital Technology Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-06-12"
+    },
+    {
+      "name": "Zhuhai Ninestar Information Technology Co. Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-06-12"
+    },
+    {
+      "name": "Zhuhai Ninestar Management Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-06-12"
+    },
+    {
+      "name": "Zhuhai Pantum Electronics Co. Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-06-12"
+    },
+    {
+      "name": "Zhuhai Pu-Tech Industrial Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-06-12"
+    },
+    {
+      "name": "Zhuhai Seine Printing Technology Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "ii"
+      ],
+      "effectiveDate": "2023-06-12"
+    },
+    {
+      "name": "Zijin Mining Group Co., Ltd.",
+      "aliases": [],
+      "formerNames": [],
+      "sections": [
+        "v"
+      ],
+      "effectiveDate": "2025-01-15"
     }
   ]
 }

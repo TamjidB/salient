@@ -97,8 +97,11 @@ Everything runs in the browser. Supplier data never leaves the user's machine.
 
 **Quirks the ingest code has to handle:**
 
-- **DOL** uses the column `Country/Area | Good | Exploitation Type`. Exploitation types are combined with commas (e.g. `Child Labor, Forced Labor`).
-- **DOL** country names are inverted or annotated: `Congo, Democratic Republic of the (DRC)`, `Korea, North`, `Turkey (Türkiye)`, `Burma`, `Kyrgyz Republic`.
+- **DOL's Excel file** has two sheets:
+  - **Goods:** `Country/Area | Good | Child Labor | Forced Labor | Forced Child Labor`, with each type marked `X`.
+  - **Downstream Goods:** `Country/Area | TVPRA Input Good | Child Labor | Forced Labor | Country/Area | TVPRA Downstream Good | Downstream Goods at Risk`. These rows become *inputs produced with* listings that name their inputs.
+- **DOL's web list** instead uses `Country/Area | Good | Exploitation Type`, with types combined by commas. The parser supports both layouts.
+- **DOL** country names vary by source: `Democratic Republic of the Congo` in the Excel, `Congo, Democratic Republic of the (DRC)` on the web page, plus `Burma`, `Turkey (Türkiye)` and `Kyrgyz Republic`. The sheets also mix straight and curly apostrophes in `Côte d'Ivoire`.
 - **UFLPA** entries put aliases inline in parentheses, in several forms:
   - `(and two aliases: A; and B)`
   - `(also known as A; B; and C)`
@@ -241,7 +244,7 @@ All drafts are labeled *Draft, not legal advice*. Thresholds and section lists m
 
 ## 12. Open questions
 
-1. Confirm the DOL Excel column layout on first fetch. The parser supports both the *Exploitation Type* layout and a one-column-per-type layout.
+1. ~~Confirm the DOL Excel column layout on first fetch.~~ Resolved on 2026-11-25: the Excel file uses one column per type, plus a Downstream Goods sheet. Both are parsed.
 2. Does dhs.gov block automated fetches from CI runners? If so, fall back to Federal Register notices.
 3. Default leverage thresholds (10% / 2%): validate them with practitioners.
 4. Should child labor and forced labor default to different severities? They're equal for now; seek practitioner input.

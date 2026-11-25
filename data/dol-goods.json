@@ -2,52 +2,4395 @@
   "meta": {
     "name": "List of Goods Produced by Child Labor or Forced Labor",
     "publisher": "U.S. Department of Labor, Bureau of International Labor Affairs",
-    "edition": "2024 (sample subset)",
+    "edition": "2024",
     "sourceUrl": "https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods",
-    "retrievedAt": null,
-    "sample": true,
-    "notice": "Development sample: the full goods vocabulary but only a handful of listings, checked against dol.gov by hand. Run `npm run data:fetch` to replace it with the full official list."
+    "retrievedAt": "2026-11-25T18:24:53.971Z",
+    "sample": false
   },
   "goods": [
-    "Açaí Berries", "Alcoholic Beverages", "Aluminum", "Amber", "Animal Feed", "Artificial Flowers",
-    "Auto Parts and Components (aluminum)", "Bagasse", "Baked Goods", "Bamboo", "Bananas", "Beans",
-    "Beans (green beans)", "Beans (green, soy, yellow)", "Beef", "Bidis (hand-rolled cigarettes)", "Biofuel",
-    "Blueberries", "Bovines", "Brassware", "Brazil Nuts/Chestnuts", "Bricks", "Bricks (clay)", "Broccoli",
-    "Cabbages", "Camel", "Carpets", "Carrots", "Cashews", "Cassava", "Cattle", "Caustic Soda", "Cement",
-    "Ceramics", "Cereal Grains", "Charcoal", "Chile Peppers", "Chocolate", "Christmas Decorations",
-    "Cigarettes (tobacco)", "Citrus Fruits", "Cloves", "Coal", "Cobalt Ore (heterogenite)", "Coca (stimulant plant)",
-    "Cocoa", "Cocoa Butter", "Cocoa Paste", "Cocoa Powder", "Coconut Oil", "Coconuts", "Coffee",
-    "Cooking Oil (palm-oil-blends)", "Copper", "Copper Ore", "Copper Products", "Copra Meal", "Corn", "Cotton",
-    "Cottonseed (hybrid)", "Crude Palm Kernel Oil", "Crude Palm Oil", "Cucumbers", "Cumin", "Dairy Products",
-    "Diamonds", "Dried Fish", "Eggplants", "Electrolytic Copper Products", "Electronics", "Embellished Textiles",
-    "Emeralds", "Fashion Accessories", "Fireworks", "Fish", "Fish Oil", "Fishmeal", "Flowers", "Fluorspar (mineral)",
-    "Footwear", "Footwear (sandals)", "Fruits (pome and stone)", "Furfural", "Furniture", "Furniture (steel)",
-    "Garlic", "Garments", "Garments Cotton", "Gems", "Glass", "Glass Bangles", "Gloves", "Goats", "Gold",
-    "Gold Dental Treatments", "Gold Jewelry", "Granite", "Granite (crushed)", "Grapes", "Gravel (crushed stones)",
-    "Gypsum (mineral)", "Hair Products", "Hazelnuts", "Hogs", "Incense (agarbatti)", "Indium", "Iron", "Jade",
-    "Jujubes", "Jute (textiles)", "Khat (stimulant plant)", "Khat/Miraa (stimulant plant)", "Lead", "Leather",
-    "Leather Goods/Accessories", "Lettuce", "Lithium", "Lithium-Ion Batteries", "Lobsters", "Locks", "Lumber",
-    "Manganese", "Manioc/Cassava", "Matches", "Meat", "Melons", "Metallurgical Grade Silicon", "Mica", "Molasses",
-    "Nails", "Nickel", "Nile Perch (fish)", "Oleochemicals", "Olives", "Onions", "Palm Fruit", "Palm Thatch",
-    "Peanuts", "Pepper", "Peppers", "Photovoltaic Ingots", "Photovoltaic Wafers", "Pineapples", "Polysilicon",
-    "Polyvinyl Chloride", "Poppies", "Pornography", "Potatoes", "Poultry", "Pulses (legumes)", "Pyrotechnics",
-    "Raw Sugar", "Recovered Metals (electronic waste)", "Refined Palm Kernel Oil", "Refined Palm Oil",
-    "Refined Sugar", "Rice", "Rubber", "Rubber Gloves", "Rubies", "Rum", "Salt", "Sand", "Sandstone", "Sapphires",
-    "Sesame", "Sheep", "Shellfish", "Shrimp", "Silk Cocoons", "Silk Fabric", "Silk Thread", "Silver", "Sisal",
-    "Soap", "Soccer Balls", "Solar Cells", "Solar Modules", "Squid", "Stones", "Stones (limestone)",
-    "Stones (pumice)", "Strawberries", "Sugar Beets", "Sugarcane", "Sunflowers", "Surgical Instruments",
-    "Sweet Potatoes", "Tantalum Ore (coltan)", "Tanzanite (gems)", "Tea", "Teak", "Textiles",
-    "Textiles (hand-woven)", "Thread/Yarn", "Tilapia (fish)", "Timber", "Tin", "Tin Ore (cassiterite)", "Tobacco",
-    "Tomato Products", "Tomatoes", "Toys", "Trona (minerals)", "Tungsten Ore (wolframite)", "Vanilla", "Wheat",
-    "Yerba Mate (stimulant plant)", "Zinc"
+    "Açaí Berries",
+    "Alcoholic Beverages",
+    "Aluminum",
+    "Amber",
+    "Animal Feed",
+    "Artificial Flowers",
+    "Auto Parts and Components (Aluminum)",
+    "Bagasse",
+    "Baked Goods",
+    "Bamboo",
+    "Bananas",
+    "Beans",
+    "Beans (green beans)",
+    "Beans (green, soy, yellow)",
+    "Beef",
+    "Bidis (hand-rolled cigarettes)",
+    "Biofuel",
+    "Bovines",
+    "Brassware",
+    "Brazil Nuts/Chestnuts",
+    "Bricks",
+    "Bricks (clay)",
+    "Broccoli",
+    "Cabbages",
+    "Carpets",
+    "Carrots",
+    "Cashews",
+    "Cattle",
+    "Caustic Soda",
+    "Cement",
+    "Ceramics",
+    "Cereal Grains",
+    "Charcoal",
+    "Chile Peppers",
+    "Chocolate",
+    "Christmas Decorations",
+    "Cigarettes (Tobacco)",
+    "Citrus Fruits",
+    "Cloves",
+    "Coal",
+    "Cobalt Ore (heterogenite)",
+    "Coca (stimulant plant)",
+    "Cocoa",
+    "Cocoa Butter",
+    "Cocoa Paste",
+    "Cocoa Powder",
+    "Coconut Oil",
+    "Coconuts",
+    "Coffee",
+    "Cooking Oil (Palm Oil Blends)",
+    "Copper Ore",
+    "Copper Products",
+    "Copra Meal",
+    "Corn",
+    "Cotton",
+    "Cottonseed (hybrid)",
+    "Crude Palm Kernel Oil",
+    "Crude Palm Oil",
+    "Cucumbers",
+    "Cumin",
+    "Dairy Products",
+    "Diamonds",
+    "Dried Fish",
+    "Eggplants",
+    "Electrolytic Copper Products",
+    "Electronics",
+    "Embellished Textiles",
+    "Emeralds",
+    "Fashion Accessories",
+    "Fireworks",
+    "Fish",
+    "Fish Oil",
+    "Fishmeal",
+    "Flowers",
+    "Footwear",
+    "Footwear (sandals)",
+    "Fruits (Pome and Stone)",
+    "Furfural",
+    "Furniture",
+    "Furniture (steel)",
+    "Garlic",
+    "Garments",
+    "Garments (Cotton)",
+    "Gems",
+    "Glass",
+    "Glass Bangles",
+    "Gloves",
+    "Goats",
+    "Gold",
+    "Granite",
+    "Granite (crushed)",
+    "Grapes",
+    "Gravel (crushed stones)",
+    "Gypsum (mineral)",
+    "Hair Products",
+    "Hazelnuts",
+    "Hogs",
+    "Incense (agarbatti)",
+    "Indium",
+    "Iron",
+    "Jade",
+    "Jujubes",
+    "Jute (textiles)",
+    "Khat (stimulant)",
+    "Khat/Miraa (stimulant plant)",
+    "Lead",
+    "Leather",
+    "Leather Goods/Accessories",
+    "Lettuce",
+    "Lithium",
+    "Lithium-Ion Batteries",
+    "Lobsters",
+    "Locks",
+    "Lumber",
+    "Manganese",
+    "Manioc/Cassava",
+    "Matches",
+    "Meat",
+    "Melons",
+    "Metallurgical Grade Silicon",
+    "Mica",
+    "Molasses",
+    "Nails",
+    "Nickel",
+    "Nile Perch (fish)",
+    "Oleochemicals",
+    "Olives",
+    "Onions",
+    "Palm Fruit",
+    "Palm Thatch",
+    "Peanuts",
+    "Pepper",
+    "Peppers",
+    "Photovoltaic Ingots",
+    "Photovoltaic Wafers",
+    "Pineapples",
+    "Polysilicon",
+    "Polyvinyl Chloride",
+    "Poppies",
+    "Pornography",
+    "Potatoes",
+    "Poultry",
+    "Pulses (legumes)",
+    "Pyrotechnics",
+    "Raw Sugar",
+    "Recovered Metals (electronic waste)",
+    "Refined Palm Kernel Oil",
+    "Refined Palm Oil",
+    "Refined Sugar",
+    "Rice",
+    "Rubber",
+    "Rubber Gloves",
+    "Rubies",
+    "Rum",
+    "Salt",
+    "Sand",
+    "Sandstone",
+    "Sapphires",
+    "Sesame",
+    "Sheep",
+    "Shellfish",
+    "Shrimp",
+    "Silk Cocoons",
+    "Silk Fabric",
+    "Silk Thread",
+    "Silver",
+    "Sisal",
+    "Soap",
+    "Soccer Balls",
+    "Solar Cells",
+    "Solar Modules",
+    "Squid",
+    "Stones",
+    "Stones (limestone)",
+    "Stones (pumice)",
+    "Strawberries",
+    "Sugar Beets",
+    "Sugarcane",
+    "Sunflowers",
+    "Surgical Instruments",
+    "Sweet Potatoes",
+    "Tantalum Ore (coltan)",
+    "Tanzanite (gems)",
+    "Tea",
+    "Teak",
+    "Textiles",
+    "Textiles (Cotton)",
+    "Textiles (hand-woven)",
+    "Thread/Yarn",
+    "Thread/Yarn (Cotton)",
+    "Tilapia (fish)",
+    "Timber",
+    "Tin",
+    "Tin Ore (cassiterite)",
+    "Tobacco",
+    "Tomato Products",
+    "Tomatoes",
+    "Toys",
+    "Trona (mineral)",
+    "Tungsten Ore (wolframite)",
+    "Vanilla",
+    "Wheat",
+    "Yerba Mate (stimulant plant)",
+    "Zinc"
   ],
   "listings": [
-    { "country": "Brazil", "good": "Cattle", "exploitation": ["child_labor", "forced_labor"] },
-    { "country": "China", "good": "Polysilicon", "exploitation": ["forced_labor"] },
-    { "country": "Congo, Democratic Republic of the (DRC)", "good": "Cobalt Ore (heterogenite)", "exploitation": ["child_labor", "forced_labor"] },
-    { "country": "Côte d'Ivoire", "good": "Cocoa", "exploitation": ["child_labor", "forced_labor"] },
-    { "country": "Ghana", "good": "Cocoa", "exploitation": ["child_labor"] },
-    { "country": "India", "good": "Bricks", "exploitation": ["child_labor", "forced_labor"] },
-    { "country": "Pakistan", "good": "Bricks", "exploitation": ["child_labor", "forced_labor"] }
+    {
+      "country": "Afghanistan",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Afghanistan",
+      "good": "Carpets",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Afghanistan",
+      "good": "Coal",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Afghanistan",
+      "good": "Poppies",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Afghanistan",
+      "good": "Salt",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Angola",
+      "good": "Diamonds",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "good": "Garlic",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "good": "Garments",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "good": "Grapes",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "good": "Olives",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "good": "Strawberries",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "good": "Tomatoes",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Argentina",
+      "good": "Yerba Mate (stimulant plant)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Azerbaijan",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Bidis (hand-rolled cigarettes)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Dried Fish",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Footwear",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Furniture (steel)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Garments",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Glass",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Jute (textiles)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Leather",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Matches",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Poultry",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Salt",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Shrimp",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Soap",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "good": "Textiles",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Belarus",
+      "good": "Furniture",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Belarus",
+      "good": "Lumber",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Belize",
+      "good": "Bananas",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Belize",
+      "good": "Citrus Fruits",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Belize",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Benin",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Benin",
+      "good": "Granite (crushed)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Brazil Nuts/Chestnuts",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Coca (stimulant plant)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Corn",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Lead",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Peanuts",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Silver",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Tin",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "good": "Zinc",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Açaí Berries",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Bananas",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Beef",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Cashews",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Ceramics",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Charcoal",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Cocoa",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Corn",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Footwear",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Garments",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Hogs",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Manioc/Cassava",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Pineapples",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Poultry",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Sheep",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Sisal",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Timber",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Brazil",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Burkina Faso",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Burkina Faso",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Burkina Faso",
+      "good": "Granite",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Bamboo",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Beans (green, soy, yellow)",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Fish",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Garments",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Jade",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Palm Thatch",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Rubber",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Rubies",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Sesame",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Shrimp",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Sunflowers",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Burma",
+      "good": "Teak",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Alcoholic Beverages",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Bovines",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Manioc/Cassava",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Meat",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Rubber",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Shrimp",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Textiles",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Timber",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cameroon",
+      "good": "Cocoa",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Cameroon",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Central African Republic",
+      "good": "Diamonds",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Central African Republic",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Chad",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Chad",
+      "good": "Gold",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Aluminum",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Artificial Flowers",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Auto Parts and Components (Aluminum)",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "China",
+          "good": "Aluminum"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Caustic Soda",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Christmas Decorations",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Coal",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Electrolytic Copper Products",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Democratic Republic of the Congo",
+          "good": "Copper Ore"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Electronics",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Fireworks",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Fish",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Footwear",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Garments",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Garments (Cotton)",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "China",
+          "good": "Cotton"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Gloves",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Hair Products",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Jujubes",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Lithium-Ion Batteries",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Democratic Republic of the Congo",
+          "good": "Cobalt Ore (heterogenite)"
+        },
+        {
+          "country": "Democratic Republic of the Congo",
+          "good": "Copper Ore"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Metallurgical Grade Silicon",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Nails",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Photovoltaic Ingots",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "China",
+          "good": "Polysilicon"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Photovoltaic Wafers",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "China",
+          "good": "Polysilicon"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Polysilicon",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Polyvinyl Chloride",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Solar Cells",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "China",
+          "good": "Polysilicon"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Solar Modules",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "China",
+          "good": "Polysilicon"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Squid",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Textiles",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Textiles (Cotton)",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "China",
+          "good": "Cotton"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Thread/Yarn",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Thread/Yarn (Cotton)",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "China",
+          "good": "Cotton"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Tomato Products",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "China",
+      "good": "Toys",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "good": "Bricks (clay)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "good": "Coal",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "good": "Coca (stimulant plant)",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "good": "Emeralds",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "good": "Fruits (Pome and Stone)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "good": "Grapes",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "good": "Pornography",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Costa Rica",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Costa Rica",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Côte d'Ivoire",
+      "good": "Chocolate",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Côte d'Ivoire",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Côte d'Ivoire",
+      "good": "Cocoa",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Côte d'Ivoire",
+      "good": "Cocoa Butter",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Côte d'Ivoire",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Côte d'Ivoire",
+      "good": "Cocoa Paste",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Côte d'Ivoire",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Côte d'Ivoire",
+      "good": "Cocoa Powder",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Côte d'Ivoire",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Côte d'Ivoire",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "good": "Cobalt Ore (heterogenite)",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "good": "Copper Ore",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "good": "Copper Products",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Democratic Republic of the Congo",
+          "good": "Copper Ore"
+        }
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "good": "Diamonds",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "good": "Tantalum Ore (coltan)",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "good": "Tin Ore (cassiterite)",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "good": "Tungsten Ore (wolframite)",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Bagasse",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Dominican Republic",
+          "good": "Sugarcane"
+        }
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Baked Goods",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Furfural",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Dominican Republic",
+          "good": "Sugarcane"
+        }
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Molasses",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Dominican Republic",
+          "good": "Sugarcane"
+        }
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Raw Sugar",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Dominican Republic",
+          "good": "Sugarcane"
+        }
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Refined Sugar",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Dominican Republic",
+          "good": "Sugarcane"
+        }
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Rum",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Dominican Republic",
+          "good": "Sugarcane"
+        }
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "good": "Tomatoes",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "good": "Bananas",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "good": "Bovines",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "good": "Flowers",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "good": "Hogs",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "good": "Poultry",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Egypt",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Egypt",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Egypt",
+      "good": "Stones (limestone)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "good": "Baked Goods",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "good": "Cereal Grains",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "good": "Fireworks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "good": "Shellfish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Eswatini",
+      "good": "Bovines",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ethiopia",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ethiopia",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ethiopia",
+      "good": "Khat (stimulant)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ethiopia",
+      "good": "Textiles (hand-woven)",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Bovines",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Chocolate",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Ghana",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Cocoa",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Cocoa Butter",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Ghana",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Cocoa Paste",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Ghana",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Cocoa Powder",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Ghana",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Textiles",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ghana",
+      "good": "Tilapia (fish)",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Guatemala",
+      "good": "Broccoli",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Guatemala",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Guatemala",
+      "good": "Corn",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Guatemala",
+      "good": "Fireworks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Guatemala",
+      "good": "Gravel (crushed stones)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Guatemala",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Guinea",
+      "good": "Cashews",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Guinea",
+      "good": "Cocoa",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Guinea",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Guinea",
+      "good": "Diamonds",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Guinea",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Honduras",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Honduras",
+      "good": "Lobsters",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Honduras",
+      "good": "Melons",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Bidis (hand-rolled cigarettes)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Brassware",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Carpets",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Cooking Oil (Palm Oil Blends)",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malaysia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Cottonseed (hybrid)",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Embellished Textiles",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Fireworks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Footwear",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Garments",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Gems",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Glass Bangles",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Incense (agarbatti)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Leather Goods/Accessories",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Locks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Matches",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Mica",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Recovered Metals (electronic waste)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Sandstone",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Shrimp",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Silk Fabric",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Silk Thread",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Soccer Balls",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Stones",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Tea",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "India",
+      "good": "Thread/Yarn",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Crude Palm Kernel Oil",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Indonesia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Crude Palm Oil",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Indonesia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Footwear (sandals)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Nickel",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Oleochemicals",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Indonesia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Palm Fruit",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Refined Palm Kernel Oil",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Indonesia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Refined Palm Oil",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Indonesia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Rubber",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Tin",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Iran",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Iran",
+      "good": "Carpets",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kazakhstan",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Khat/Miraa (stimulant plant)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Sand",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Sisal",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Stones",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Tea",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kenya",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kyrgyz Republic",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Kyrgyz Republic",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "good": "Potatoes",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Lesotho",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Liberia",
+      "good": "Diamonds",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Liberia",
+      "good": "Rubber",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Madagascar",
+      "good": "Mica",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Madagascar",
+      "good": "Sapphires",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Madagascar",
+      "good": "Stones",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Madagascar",
+      "good": "Vanilla",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Malawi",
+      "good": "Cigarettes (Tobacco)",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malawi",
+          "good": "Tobacco"
+        }
+      ]
+    },
+    {
+      "country": "Malawi",
+      "good": "Tea",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Malawi",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Biofuel",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malaysia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Cooking Oil (Palm Oil Blends)",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malaysia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Crude Palm Kernel Oil",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malaysia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Crude Palm Oil",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malaysia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Electronics",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Garments",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Oleochemicals",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malaysia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Palm Fruit",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Refined Palm Kernel Oil",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malaysia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Refined Palm Oil",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malaysia",
+          "good": "Palm Fruit"
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "good": "Rubber Gloves",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Mali",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mali",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mali",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Mauritania",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mauritania",
+      "good": "Goats",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "good": "Garments",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Beans (green beans)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Chile Peppers",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Cucumbers",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Eggplants",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Garments",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Leather Goods/Accessories",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Melons",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Onions",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Poppies",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Pornography",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mexico",
+      "good": "Tomatoes",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Mongolia",
+      "good": "Coal",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mongolia",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Mozambique",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Nepal",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Nepal",
+      "good": "Carpets",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Nepal",
+      "good": "Embellished Textiles",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Nepal",
+      "good": "Stones",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "good": "Chocolate",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Côte d'Ivoire and Ghana",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "good": "Cocoa Butter",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Côte d'Ivoire and Ghana",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "good": "Cocoa Paste",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Côte d'Ivoire and Ghana",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "good": "Cocoa Powder",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Côte d'Ivoire and Ghana",
+          "good": "Cocoa"
+        }
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "good": "Bananas",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "good": "Gravel (crushed stones)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "good": "Shellfish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "good": "Stones (pumice)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Niger",
+      "good": "Cattle",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Niger",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Niger",
+      "good": "Gypsum (mineral)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Niger",
+      "good": "Salt",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Niger",
+      "good": "Trona (mineral)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Nigeria",
+      "good": "Cocoa",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Nigeria",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Nigeria",
+      "good": "Granite",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Nigeria",
+      "good": "Gravel (crushed stones)",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Nigeria",
+      "good": "Manioc/Cassava",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Nigeria",
+      "good": "Sand",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "North Korea",
+      "good": "Bricks",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "North Korea",
+      "good": "Cement",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "North Korea",
+      "good": "Coal",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "North Korea",
+      "good": "Gold",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "North Korea",
+      "good": "Iron",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "North Korea",
+      "good": "Textiles",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "North Korea",
+      "good": "Timber",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Baked Goods",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Bovines",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Carpets",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Coal",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Cotton",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Dairy Products",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Electronics",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Furniture",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Garments",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Glass Bangles",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Leather",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Sugarcane",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Surgical Instruments",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Textiles",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "good": "Wheat",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Panama",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Panama",
+      "good": "Melons",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Beans",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Cabbages",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Carrots",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Corn",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Goats",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Hogs",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Lettuce",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Manioc/Cassava",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Melons",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Onions",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Peanuts",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Peppers",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Pornography",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Poultry",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Sesame",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Sheep",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Stones (limestone)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Sweet Potatoes",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Tomatoes",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "good": "Yerba Mate (stimulant plant)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Peru",
+      "good": "Brazil Nuts/Chestnuts",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Peru",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Peru",
+      "good": "Coca (stimulant plant)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Peru",
+      "good": "Fireworks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Peru",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Peru",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Peru",
+      "good": "Timber",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Bananas",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Coconut Oil",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Philippines",
+          "good": "Coconut"
+        }
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Coconuts",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Copra Meal",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Philippines",
+          "good": "Coconut"
+        }
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Corn",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Fashion Accessories",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Hogs",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Pornography",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Pyrotechnics",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Rubber",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Philippines",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Russia",
+      "good": "Bricks",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Russia",
+      "good": "Cigarettes (Tobacco)",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malawi",
+          "good": "Tobacco"
+        }
+      ]
+    },
+    {
+      "country": "Russia",
+      "good": "Pornography",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Russia",
+      "good": "Timber",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Rwanda",
+      "good": "Tea",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Senegal",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Sierra Leone",
+      "good": "Cocoa",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Sierra Leone",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Sierra Leone",
+      "good": "Diamonds",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Sierra Leone",
+      "good": "Granite",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Sierra Leone",
+      "good": "Palm Fruit",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "South Korea",
+      "good": "Indium",
+      "exploitation": [
+        "inputs_child_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Bolivia",
+          "good": "Zinc"
+        }
+      ]
+    },
+    {
+      "country": "South Sudan",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Sudan",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Suriname",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Taiwan",
+      "good": "Fish",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Tajikistan",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Cloves",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Nile Perch (fish)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Sisal",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Stones",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Tanzanite (gems)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Tea",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Thailand",
+      "good": "Animal Feed",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Thailand",
+          "good": "Fish"
+        }
+      ]
+    },
+    {
+      "country": "Thailand",
+      "good": "Fish",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Thailand",
+      "good": "Fish Oil",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Thailand",
+          "good": "Fish"
+        }
+      ]
+    },
+    {
+      "country": "Thailand",
+      "good": "Fishmeal",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Thailand",
+          "good": "Fish"
+        }
+      ]
+    },
+    {
+      "country": "Thailand",
+      "good": "Garments",
+      "exploitation": [
+        "child_labor",
+        "forced_labor",
+        "forced_child_labor"
+      ]
+    },
+    {
+      "country": "Thailand",
+      "good": "Pornography",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Thailand",
+      "good": "Shrimp",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Thailand",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkey (Türkiye)",
+      "good": "Citrus Fruits",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkey (Türkiye)",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkey (Türkiye)",
+      "good": "Cumin",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkey (Türkiye)",
+      "good": "Footwear",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkey (Türkiye)",
+      "good": "Furniture",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkey (Türkiye)",
+      "good": "Garments",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkey (Türkiye)",
+      "good": "Hazelnuts",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkey (Türkiye)",
+      "good": "Peanuts",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkey (Türkiye)",
+      "good": "Pulses (legumes)",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkey (Türkiye)",
+      "good": "Sugar Beets",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Turkmenistan",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Charcoal",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Sand",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Stones",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Tea",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uganda",
+      "good": "Vanilla",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "good": "Amber",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "good": "Cigarettes (Tobacco)",
+      "exploitation": [
+        "inputs_child_labor",
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "Malawi",
+          "good": "Tobacco"
+        }
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "good": "Coal",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "good": "Pornography",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Uzbekistan",
+      "good": "Silk Cocoons",
+      "exploitation": [
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Venezuela",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Bricks",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Cashews",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Coffee",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Footwear",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Furniture",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Garments",
+      "exploitation": [
+        "child_labor",
+        "forced_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Garments (Cotton)",
+      "exploitation": [
+        "inputs_forced_labor"
+      ],
+      "inputs": [
+        {
+          "country": "China",
+          "good": "Cotton"
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Leather",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Pepper",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Rice",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Rubber",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Tea",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Textiles",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Timber",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Yemen",
+      "good": "Fish",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zambia",
+      "good": "Cattle",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zambia",
+      "good": "Copper Ore",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zambia",
+      "good": "Cotton",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zambia",
+      "good": "Gems",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zambia",
+      "good": "Manganese",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zambia",
+      "good": "Stones",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zambia",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zimbabwe",
+      "good": "Gold",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zimbabwe",
+      "good": "Lithium",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zimbabwe",
+      "good": "Sugarcane",
+      "exploitation": [
+        "child_labor"
+      ]
+    },
+    {
+      "country": "Zimbabwe",
+      "good": "Tobacco",
+      "exploitation": [
+        "child_labor"
+      ]
+    }
   ]
 }

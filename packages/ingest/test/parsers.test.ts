@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { editionFromUrl, findDolExcelUrl, parseDolRows, parseExploitation } from '../src/dol.ts';
+import {
+  editionFromUrl,
+  findDolExcelUrl,
+  mergeDolListings,
+  parseDolDownstreamRows,
+  parseDolRows,
+  parseExploitation,
+} from '../src/dol.ts';
 import { parseEntityCell, parseLastUpdated, parseUflpaHtml, parseUsDate } from '../src/uflpa.ts';
 
 describe('parseEntityCell (verbatim formats from dhs.gov)', () => {
@@ -139,5 +146,50 @@ describe('DOL spreadsheet', () => {
       'https://www.dol.gov/sites/dolgov/files/ilab/child_labor_reports/tda2023/2024ListofGoodsExcel.xlsx',
     );
     expect(editionFromUrl('https://x/tda2023/2024ListofGoodsExcel.xlsx')).toBe('2024');
+  });
+});
+
+describe('DOL downstream goods sheet (layout as in the 2024 Excel)', () => {
+  const rows = [
+    ['Country/Area', 'TVPRA Input Good', 'Child Labor', 'Forced Labor', 'Country/Area', 'TVPRA Downstream Good', 'Downstream Goods at Risk'],
+    ['Bolivia', 'Zinc', 'X', null, 'South Korea', 'Indium', 'Conductive Glass, Phones'],
+    ['China', 'Cotton', null, 'X', 'China', 'Garments (Cotton)', 'Garments, Textiles'],
+    ['China', 'Cotton', null, 'X', 'China', 'Textiles (Cotton)', 'Garments, Textiles'],
+    ['Peru', 'Zinc', 'X', null, 'South Korea', 'Indium', 'Conductive Glass, Phones'],
+  ];
+
+  it('turns each row into an "inputs produced with" listing for the downstream good', () => {
+    expect(parseDolDownstreamRows(rows)).toEqual([
+      {
+        country: 'South Korea',
+        good: 'Indium',
+        exploitation: ['inputs_child_labor'],
+        inputs: [
+          { country: 'Bolivia', good: 'Zinc' },
+          { country: 'Peru', good: 'Zinc' },
+        ],
+      },
+      { country: 'China', good: 'Garments (Cotton)', exploitation: ['inputs_forced_labor'], inputs: [{ country: 'China', good: 'Cotton' }] },
+      { country: 'China', good: 'Textiles (Cotton)', exploitation: ['inputs_forced_labor'], inputs: [{ country: 'China', good: 'Cotton' }] },
+    ]);
+  });
+
+  it('ignores sheets without a downstream header', () => {
+    expect(parseDolDownstreamRows([['Country/Area', 'Good', 'Child Labor']])).toEqual([]);
+  });
+
+  it('merges a downstream listing into a direct one for the same country and good', () => {
+    const merged = mergeDolListings(
+      [{ country: 'China', good: 'Garments', exploitation: ['forced_labor'] }],
+      [{ country: 'China', good: 'garments', exploitation: ['inputs_forced_labor'], inputs: [{ country: 'China', good: 'Cotton' }] }],
+    );
+    expect(merged).toEqual([
+      {
+        country: 'China',
+        good: 'Garments',
+        exploitation: ['forced_labor', 'inputs_forced_labor'],
+        inputs: [{ country: 'China', good: 'Cotton' }],
+      },
+    ]);
   });
 });

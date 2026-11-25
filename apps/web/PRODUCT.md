@@ -52,7 +52,7 @@ The product is also the author's open-source portfolio piece, shown publicly on 
 
 - Static single-page app (React + Vite).
 - No backend, no analytics, and no third-party requests at runtime. Fonts must be self-hosted or system fonts.
-- The repo ships sample data until `npm run data:fetch` is run, and the UI must say so.
+- The repo ships the full official lists, refreshed with `npm run data:fetch`. If a dataset is marked as a sample, the UI must say so.
 
 **Not decided yet (roadmap):** a review UI for confirming matches, a world map, and draft statement sections.
 
@@ -72,8 +72,8 @@ The product is also the author's open-source portfolio piece, shown publicly on 
 ## Evidence on Hand
 
 - **Data:**
-  - `data/dol-goods.json`: sample subset, 7 hand-checked listings plus the 2024 goods vocabulary
-  - `data/uflpa-entities.json`: 4 entries copied verbatim from dhs.gov
+  - `data/dol-goods.json`: the official DOL 2024 list, with 530 listings across 204 goods and 82 countries and areas, including downstream goods
+  - `data/uflpa-entities.json`: the official UFLPA Entity List as updated 28 Oct 2026, with 195 entities
   - `data/product-synonyms.json`
   - `data/sample/suppliers.csv`: fictional companies, plus two rows that echo listed names
 - **Absences:** no users, customers, testimonials, press or benchmarks exist. Do not invent any.

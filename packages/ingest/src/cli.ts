@@ -13,7 +13,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import readXlsxFile from 'read-excel-file/node';
 import type { DolDataset, UflpaDataset } from '@salient/engine';
-import { editionFromUrl, findDolExcelUrl, parseDolRows } from './dol.ts';
+import { editionFromUrl, findDolExcelUrl, mergeDolListings, parseDolDownstreamRows, parseDolRows } from './dol.ts';
 import { parseLastUpdated, parseUflpaHtml } from './uflpa.ts';
 
 const DATA_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../../data');
@@ -56,6 +56,10 @@ async function fetchDol(): Promise<void> {
     throw new Error(`DOL: unrecognized exploitation types: ${parsed.unknownTypes.join(' | ')}. Map them in src/dol.ts.`);
   }
 
+  // The "Downstream Goods" sheet lists goods made from listed inputs ("inputs produced with …").
+  const downstream = sheets.flatMap((s) => (s.sheet === parsed.sheet ? [] : parseDolDownstreamRows(s.data)));
+  const listings = mergeDolListings(parsed.listings, downstream);
+
   const edition = editionFromUrl(xlsxUrl) ?? 'unknown';
   const dataset: DolDataset = {
     meta: {
@@ -66,10 +70,13 @@ async function fetchDol(): Promise<void> {
       retrievedAt: new Date().toISOString(),
       sample: false,
     },
-    goods: [...new Set(parsed.listings.map((l) => l.good))].sort((a, b) => a.localeCompare(b)),
-    listings: parsed.listings,
+    goods: [...new Set(listings.map((l) => l.good))].sort((a, b) => a.localeCompare(b)),
+    listings,
   };
-  console.log(`DOL: ${dataset.listings.length} listings, ${dataset.goods.length} goods (sheet "${parsed.sheet}", edition ${edition})`);
+  const countries = new Set(listings.map((l) => l.country)).size;
+  console.log(
+    `DOL: ${listings.length} listings (${downstream.length} downstream), ${dataset.goods.length} goods, ${countries} countries/areas (edition ${edition})`,
+  );
   await writeJson('dol-goods.json', dataset);
 }
 

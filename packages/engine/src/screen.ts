@@ -104,7 +104,14 @@ export function screenSuppliers(screener: Screener, suppliers: readonly Supplier
           dataset: dol.meta.name,
           edition: dol.meta.edition,
           url: dol.meta.sourceUrl,
-          detail: `${listing.country} · ${listing.good} · ${listing.exploitation.map((e) => EXPLOITATION_LABEL[e]).join(', ')}`,
+          detail: [
+            `${listing.country} · ${listing.good} · ${listing.exploitation.map((e) => EXPLOITATION_LABEL[e]).join(', ')}`,
+            listing.inputs?.length
+              ? `made from ${humanList(listing.inputs.map((i) => `${i.good} (${i.country})`))}`
+              : null,
+          ]
+            .filter(Boolean)
+            .join(' · '),
         },
         match: { kind: 'product', product: match },
       });

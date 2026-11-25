@@ -49,7 +49,11 @@ npm run dev
 
 Then open the URL Vite prints, and click **Try sample suppliers**.
 
-The repo ships **sample data** (a few hand-checked entries). Run this to load the full official lists:
+The repo ships the **full official lists**:
+- the DOL List of Goods, 2024 edition: 530 listings covering 204 goods in 82 countries and areas, including goods made from listed inputs
+- the UFLPA Entity List as updated on 28 Oct 2026: 195 entities, with 132 aliases and former names
+
+Refresh them with:
 
 ```bash
 npm run data:fetch
