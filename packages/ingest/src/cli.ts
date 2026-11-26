@@ -8,7 +8,7 @@
  * Fails loudly (non-zero exit, nothing written) if a source changes shape. Sanity thresholds stop
  * a format change from silently emptying a list.
  */
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import readXlsxFile from 'read-excel-file/node';
@@ -32,10 +32,30 @@ async function get(url: string): Promise<Response> {
   return res;
 }
 
-async function writeJson(file: string, data: unknown): Promise<void> {
+/** The dataset with its retrieval time removed, so a re-fetch of identical data compares equal. */
+function withoutRetrievedAt(data: { meta: object }): string {
+  const { retrievedAt: _ignored, ...meta } = data.meta as { retrievedAt?: string };
+  return JSON.stringify({ ...data, meta });
+}
+
+/**
+ * Write a dataset, unless only its retrieval time would change. This keeps the weekly refresh
+ * from opening a pull request when the official list hasn't changed.
+ */
+async function writeJson(file: string, data: { meta: object }): Promise<void> {
   const target = path.join(DATA_DIR, file);
+  const shown = path.relative(process.cwd(), target);
+  try {
+    const existing = JSON.parse(await readFile(target, 'utf8')) as { meta: object };
+    if (withoutRetrievedAt(existing) === withoutRetrievedAt(data)) {
+      console.log(`unchanged ${shown}`);
+      return;
+    }
+  } catch {
+    // No existing file, or unreadable: write a fresh one.
+  }
   await writeFile(target, `${JSON.stringify(data, null, 2)}\n`);
-  console.log(`wrote ${path.relative(process.cwd(), target)}`);
+  console.log(`wrote ${shown}`);
 }
 
 async function fetchDol(): Promise<void> {
